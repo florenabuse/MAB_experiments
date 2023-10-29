@@ -57,12 +57,12 @@ def main():
     a = a[['algorithm','data_path','approach','data_label','join_time','total_time','feature_selection_time','depth','accuracy','train_time','feature_importance','join_path_features','cutoff_threshold','redundancy_threshold','rank']]
     a.to_csv('../results/results_mab_first_scenraio.csv', index=False)
 
-    folder = 'credit'
-    base_name = 'table9'
+    folder = 'covertype'
+    base_name = 'table_0_0'
     index_col = 'Key_0_0'
-    target_col = 'credit/table9.oz252'
+    target_col = 'covertype/table_0_0.oz252'
 
-    tables = ['table0', 'table1', 'table2', 'table3']
+    tables = ['table_0_0', 'table_1_1', 'table_1_2', 'table_1_3']
 
     for entry in tables:
         df = pd.read_csv(f"../data2/{folder}/{entry}.csv")
@@ -85,7 +85,7 @@ def main():
         a_train.to_csv(f"../data2/{folder}/{entry}_train.csv", index=False)
         a_test.to_csv(f"../data2/{folder}/{entry}_test.csv", index=False)
 
-    tables = ['table1', 'table2', 'table3']
+    tables = ['table_1_1', 'table_1_2', 'table_1_3']
 
 
     main_MAB(tables, folder, base_name, index_col, target_col)
