@@ -27,8 +27,18 @@ def main_MAB(tables, folder, base_name, index_col, target_col):
 
     random_state = 42
 
-    for string in ['XT', 'XGB', 'GBM', 'RF']:
-        model = {string: {}}
+    #  {"RF": {}, "GBM": {}, "XGB": {}, "XT": {}, 'KNN': {},
+    # 'LR': [{'penalty': 'L1'}, {'penalty': 'L2'}]
+    # tree-based: RF, GBM, XGB, XT
+    models = {
+        {"LR": [
+            {"penalty": "l1"},
+            {"penalty": "l2"}
+        ]},
+        {"KNN": {}},
+    }
+    for model in models:
+        # model = {string: {}}
 
         env = AutoFeature_env(folder, base_name, base_train_path, base_test_path, repo_train_path, repo_test_path, tables, connections, index_col, target_col, model_target, model, max_try_num, topl)
 
@@ -47,10 +57,10 @@ def main():
     a = a[['algorithm','data_path','approach','data_label','join_time','total_time','feature_selection_time','depth','accuracy','train_time','feature_importance','join_path_features','cutoff_threshold','redundancy_threshold','rank']]
     a.to_csv('../results/results_mab_first_scenraio.csv', index=False)
 
-    folder = 'yprop'
+    folder = 'credit'
     base_name = 'table_0_0'
     index_col = 'Key_0_0'
-    target_col = 'yprop/table_0_0.oz252'
+    target_col = 'credit/table_0_0.oz252'
 
     tables = ['table_0_0', 'table_1_1', 'table_1_2', 'table_1_3']
 
