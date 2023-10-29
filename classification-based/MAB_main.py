@@ -60,7 +60,7 @@ def main():
     folder = 'credit'
     base_name = 'table9'
     index_col = 'Key_0_0'
-    target_col = 'credit/table_0_0.oz252'
+    target_col = 'credit/table9.oz252'
 
     tables = ['table_0_0', 'table_1_1', 'table_1_2', 'table_1_3']
 
