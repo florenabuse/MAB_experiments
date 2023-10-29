@@ -1,0 +1,15 @@
+[steel.csv.V1, steel.csv.V11, steel.csv.V2, steel.csv.V4]: ForeignKey - steel.csv.V1, steel.csv.V2, steel.csv.V11; PrimaryKey - steel.csv.V1, steel.csv.V4;
+[steel.csv.V1, steel.csv.V11, steel.csv.V15, steel.csv.V2]: PrimaryKey - steel.csv.V1, steel.csv.V2, steel.csv.V11;
+[steel.csv.V19, steel.csv.V24, steel.csv.V25, steel.csv.V26, steel.csv.V3, steel.csv.V4, steel.csv.V5, steel.csv.V6, steel.csv.V7, steel.csv.V8, steel.csv.V9]: PrimaryKey - steel.csv.V4; ForeignKey - steel.csv.V5, steel.csv.V6, steel.csv.V9, steel.csv.V19;
+[steel.csv.V18, steel.csv.V19, steel.csv.V5, steel.csv.V6, steel.csv.V9]: ForeignKey - steel.csv.V5; PrimaryKey - steel.csv.V5, steel.csv.V6, steel.csv.V9, steel.csv.V19;
+[steel.csv.V16, steel.csv.V24, steel.csv.V25, steel.csv.V5]: ForeignKey - steel.csv.V24, steel.csv.V25; PrimaryKey - steel.csv.V5, steel.csv.V24, steel.csv.V25;
+[steel.csv.V10, steel.csv.V24, steel.csv.V26, steel.csv.V9]: PrimaryKey - steel.csv.V9, steel.csv.V24, steel.csv.V26;
+[steel.csv.V19, steel.csv.V20, steel.csv.V8]: PrimaryKey - steel.csv.V8, steel.csv.V19;
+[steel.csv.V24, steel.csv.V25, steel.csv.V26, steel.csv.V33]: ForeignKey - steel.csv.V24, steel.csv.V25; PrimaryKey - steel.csv.V24, steel.csv.V25, steel.csv.V26;
+[steel.csv.V23, steel.csv.V24, steel.csv.V25]: ForeignKey - steel.csv.V25; PrimaryKey - steel.csv.V24, steel.csv.V25;
+[steel.csv.V17, steel.csv.V25, steel.csv.V26]: ForeignKey - steel.csv.V25; PrimaryKey - steel.csv.V25, steel.csv.V26;
+[steel.csv.Class, steel.csv.V13, steel.csv.V14, steel.csv.V27, steel.csv.V28, steel.csv.V29, steel.csv.V3, steel.csv.V32]: ForeignKey - steel.csv.V13; PrimaryKey - steel.csv.V3;
+[steel.csv.V30, steel.csv.V31, steel.csv.V5, steel.csv.V6, steel.csv.V7]: ForeignKey - steel.csv.V5; PrimaryKey - steel.csv.V5, steel.csv.V6, steel.csv.V7;
+[steel.csv.V22, steel.csv.V5]: PrimaryKey - steel.csv.V5;
+[steel.csv.V21, steel.csv.V25]: PrimaryKey - steel.csv.V25;
+[steel.csv.V12, steel.csv.V13]: PrimaryKey - steel.csv.V13;

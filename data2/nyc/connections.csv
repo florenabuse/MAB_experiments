@@ -1,0 +1,126 @@
+﻿fk_table,fk_column,pk_table,pk_column,Match Type
+civil_list.csv,EMPLOYEE NAME,evictions.csv,Marshal First Name,sem-overlap
+civil_list.csv,EMPLOYEE NAME,evictions.csv,Marshal Last Name,sem-overlap
+civil_list.csv,EMPLOYEE NAME,city_record_online.csv,ContactName,sem-overlap
+civil_list.csv,AGENCY NAME,agency_spending.csv,AGENCY NAME,equi-overlap
+civil_list.csv,AGENCY NAME,city_record_online.csv,AgencyName,equi-overlap
+civil_list.csv,CALENDAR YEAR,agency_spending.csv,FIRST PLAN FISCAL YEAR,equi-overlap
+city_record_online.csv,StartDate,city_record_online.csv,EndDate,equi-overlap
+city_record_online.csv,StartDate,film_permits.csv,StartDateTime,sem-overlap
+city_record_online.csv,StartDate,film_permits.csv,EndDateTime,sem-overlap
+city_record_online.csv,StartDate,city_record_online.csv,DueDate,sem-overlap
+city_record_online.csv,EndDate,city_record_online.csv,DueDate,sem-overlap
+city_record_online.csv,EndDate,film_permits.csv,StartDateTime,sem-overlap
+city_record_online.csv,EndDate,film_permits.csv,EndDateTime,sem-overlap
+film_permits.csv,StartDateTime,film_permits.csv,EndDateTime,equi-overlap
+city_record_online.csv,DueDate,film_permits.csv,StartDateTime,equi-overlap
+city_record_online.csv,DueDate,film_permits.csv,EndDateTime,equi-overlap
+film_permits.csv,StartDateTime,film_permits.csv,EnteredOn,equi-overlap
+film_permits.csv,EndDateTime,film_permits.csv,EnteredOn,equi-overlap
+city_record_online.csv,DueDate,film_permits.csv,EnteredOn,same-domain
+city_record_online.csv,StartDate,film_permits.csv,EnteredOn,sem-overlap
+city_record_online.csv,EndDate,film_permits.csv,EnteredOn,sem-overlap
+city_record_online.csv,StartDate,recent_contract_awards.csv,StartDate,equi-overlap
+city_record_online.csv,StartDate,recent_contract_awards.csv,EndDate,equi-overlap
+recent_contract_awards.csv,StartDate,recent_contract_awards.csv,EndDate,equi-overlap
+city_record_online.csv,DueDate,recent_contract_awards.csv,StartDate,sem-overlap
+city_record_online.csv,DueDate,recent_contract_awards.csv,EndDate,sem-overlap
+city_record_online.csv,EndDate,recent_contract_awards.csv,StartDate,equi-overlap
+city_record_online.csv,EndDate,recent_contract_awards.csv,EndDate,equi-overlap
+city_record_online.csv,StartDate,agency_spending.csv,PUBLICATION DATE,sem-overlap
+city_record_online.csv,EndDate,agency_spending.csv,PUBLICATION DATE,sem-overlap
+city_record_online.csv,DueDate,agency_spending.csv,PUBLICATION DATE,sem-overlap
+city_record_online.csv,StartDate,capital_projects1.csv,Date Reported As Of,sem-overlap
+city_record_online.csv,StartDate,capital_projects1.csv,Design Start,equi-overlap
+city_record_online.csv,StartDate,capital_projects1.csv,Forecast Completion,equi-overlap
+capital_projects1.csv,Design Start,capital_projects1.csv,Forecast Completion,equi-overlap
+city_record_online.csv,EndDate,capital_projects1.csv,Date Reported As Of,sem-overlap
+city_record_online.csv,EndDate,capital_projects1.csv,Design Start,equi-overlap
+city_record_online.csv,EndDate,capital_projects1.csv,Forecast Completion,equi-overlap
+city_record_online.csv,DueDate,capital_projects1.csv,Date Reported As Of,sem-overlap
+city_record_online.csv,DueDate,capital_projects1.csv,Design Start,sem-overlap
+city_record_online.csv,DueDate,capital_projects1.csv,Forecast Completion,sem-overlap
+city_record_online.csv,AddressToRequest,evictions.csv,Eviction Address,sem-overlap
+city_record_online.csv,AddressToRequest,evictions.csv,Eviction Postcode,sem-overlap
+city_record_online.csv,AddressToRequest,recent_contract_awards.csv,VendorAddress,equi-overlap
+city_record_online.csv,StartDate,housing.csv,Project Start Date,equi-overlap
+city_record_online.csv,EndDate,housing.csv,Project Start Date,equi-overlap
+city_record_online.csv,DueDate,housing.csv,Project Start Date,sem-overlap
+city_record_online.csv,AddressToRequest,housing.csv,Address,sem-overlap
+city_record_online.csv,AddressToRequest,film_permits.csv,ParkingHeld,sem-overlap
+civil_service_titles1.csv,Bargaining Unit Short Name,civil_service_titles1.csv,Bargaining Unit Description,sem-overlap
+civil_service_titles1.csv,Union Code,civil_service_titles1.csv,Union Code,equi-overlap
+evictions.csv,BOROUGH,film_permits.csv,Borough,equi-overlap
+evictions.csv,Eviction Address,recent_contract_awards.csv,VendorAddress,sem-overlap
+evictions.csv,Eviction Postcode,recent_contract_awards.csv,VendorAddress,sem-overlap
+evictions.csv,Marshal First Name,city_record_online.csv,ContactName,sem-overlap
+evictions.csv,Marshal Last Name,city_record_online.csv,ContactName,sem-overlap
+evictions.csv,BOROUGH,housing.csv,Borough,equi-overlap
+evictions.csv,Eviction Postcode,housing.csv,Postcode,equi-overlap
+evictions.csv,Eviction Postcode,film_permits.csv,ZipCode(s),equi-overlap
+city_record_online.csv,AddressToRequest,film_permits.csv,ZipCode(s),sem-overlap
+city_record_online.csv,StartDate,evictions.csv,Executed Date,equi-overlap
+city_record_online.csv,EndDate,evictions.csv,Executed Date,equi-overlap
+city_record_online.csv,DueDate,evictions.csv,Executed Date,sem-overlap
+evictions.csv,Executed Date,film_permits.csv,StartDateTime,sem-overlap
+evictions.csv,Executed Date,film_permits.csv,EndDateTime,sem-overlap
+evictions.csv,Executed Date,film_permits.csv,EnteredOn,sem-overlap
+evictions.csv,Executed Date,recent_contract_awards.csv,StartDate,equi-overlap
+evictions.csv,Executed Date,recent_contract_awards.csv,EndDate,equi-overlap
+evictions.csv,Executed Date,agency_spending.csv,PUBLICATION DATE,sem-overlap
+evictions.csv,Executed Date,capital_projects1.csv,Date Reported As Of,sem-overlap
+evictions.csv,Executed Date,capital_projects1.csv,Design Start,equi-overlap
+evictions.csv,Executed Date,capital_projects1.csv,Forecast Completion,equi-overlap
+evictions.csv,Executed Date,housing.csv,Project Start Date,equi-overlap
+city_record_online.csv,TypeOfNoticeDescription,recent_contract_awards.csv,TypeOfNoticeDescription,equi-overlap
+city_record_online.csv,CategoryDescription,recent_contract_awards.csv,CategoryDescription,equi-overlap
+city_record_online.csv,SectionName,recent_contract_awards.csv,SectionName,equi-overlap
+city_record_online.csv,SelectionMethodDescription,recent_contract_awards.csv,SelectionMethodDescription,equi-overlap
+city_record_online.csv,ShortTitle,recent_contract_awards.csv,ShortTitle,equi-overlap
+city_record_online.csv,AgencyName,recent_contract_awards.csv,AgencyName,equi-overlap
+recent_contract_awards.csv,VendorAddress,film_permits.csv,ZipCode(s),sem-overlap
+recent_contract_awards.csv,VendorAddress,film_permits.csv,ParkingHeld,sem-overlap
+recent_contract_awards.csv,VendorAddress,housing.csv,Address,sem-overlap
+recent_contract_awards.csv,VendorAddress,housing.csv,Postcode,sem-overlap
+recent_contract_awards.csv,StartDate,housing.csv,Project Start Date,equi-overlap
+recent_contract_awards.csv,EndDate,housing.csv,Project Start Date,equi-overlap
+recent_contract_awards.csv,StartDate,agency_spending.csv,PUBLICATION DATE,sem-overlap
+recent_contract_awards.csv,EndDate,agency_spending.csv,PUBLICATION DATE,sem-overlap
+recent_contract_awards.csv,StartDate,capital_projects1.csv,Date Reported As Of,sem-overlap
+recent_contract_awards.csv,EndDate,capital_projects1.csv,Date Reported As Of,sem-overlap
+recent_contract_awards.csv,StartDate,capital_projects1.csv,Design Start,equi-overlap
+recent_contract_awards.csv,EndDate,capital_projects1.csv,Design Start,equi-overlap
+recent_contract_awards.csv,StartDate,capital_projects1.csv,Forecast Completion,equi-overlap
+recent_contract_awards.csv,EndDate,capital_projects1.csv,Forecast Completion,equi-overlap
+recent_contract_awards.csv,StartDate,film_permits.csv,StartDateTime,sem-overlap
+recent_contract_awards.csv,EndDate,film_permits.csv,StartDateTime,sem-overlap
+recent_contract_awards.csv,StartDate,film_permits.csv,EndDateTime,sem-overlap
+recent_contract_awards.csv,EndDate,film_permits.csv,EndDateTime,sem-overlap
+recent_contract_awards.csv,StartDate,film_permits.csv,EnteredOn,sem-overlap
+recent_contract_awards.csv,EndDate,film_permits.csv,EnteredOn,sem-overlap
+housing.csv,Postcode,film_permits.csv,ZipCode(s),equi-overlap
+housing.csv,Borough,film_permits.csv,Borough,equi-overlap
+housing.csv,Address,film_permits.csv,ParkingHeld,sem-overlap
+housing.csv,Borough,capital_projects2.csv,Borough,equi-overlap
+housing.csv,Project Name,capital_projects2.csv,Project Name,equi-overlap
+evictions.csv,BOROUGH,capital_projects2.csv,Borough,equi-overlap
+agency_spending.csv,AGENCY NAME,city_record_online.csv,AgencyName,sem-overlap
+agency_spending.csv,AGENCY NAME,recent_contract_awards.csv,AgencyName,sem-overlap
+agency_spending.csv,PUBLICATION DATE,capital_projects1.csv,Date Reported As Of,sem-overlap
+agency_spending.csv,PUBLICATION DATE,capital_projects1.csv,Design Start,sem-overlap
+agency_spending.csv,PUBLICATION DATE,capital_projects1.csv,Forecast Completion,sem-overlap
+agency_spending.csv,PUBLICATION DATE,film_permits.csv,StartDateTime,sem-overlap
+agency_spending.csv,PUBLICATION DATE,film_permits.csv,EndDateTime,sem-overlap
+agency_spending.csv,PUBLICATION DATE,film_permits.csv,EnteredOn,sem-overlap
+capital_projects1.csv,Design Start,capital_projects1.csv,Date Reported As Of,sem-overlap
+capital_projects1.csv,Forecast Completion,capital_projects1.csv,Date Reported As Of,sem-overlap
+capital_projects1.csv,Design Start,film_permits.csv,StartDateTime,sem-overlap
+capital_projects1.csv,Design Start,film_permits.csv,EndDateTime,sem-overlap
+capital_projects1.csv,Design Start,film_permits.csv,EnteredOn,sem-overlap
+capital_projects1.csv,Forecast Completion,film_permits.csv,StartDateTime,sem-overlap
+capital_projects1.csv,Forecast Completion,film_permits.csv,EndDateTime,sem-overlap
+capital_projects1.csv,Forecast Completion,film_permits.csv,EnteredOn,sem-overlap
+capital_projects1.csv,Date Reported As Of,film_permits.csv,StartDateTime,sem-overlap
+capital_projects1.csv,Date Reported As Of,film_permits.csv,EndDateTime,sem-overlap
+capital_projects1.csv,Date Reported As Of,film_permits.csv,EnteredOn,sem-overlap
+capital_projects2.csv,Borough,film_permits.csv,Borough,sem-overlap

@@ -1,0 +1,801 @@
+credit/table4.checking_status,credit/table4.credit_history,credit/table4.duration,credit_amount
+<0,delayed previously,60.0,6836.0
+>=200,critical/other existing credit,21.0,2319.0
+no checking,existing paid,6.0,1236.0
+no checking,no credits/all paid,21.0,5003.0
+no checking,existing paid,12.0,886.0
+<0,existing paid,24.0,1442.0
+no checking,existing paid,6.0,2978.0
+<0,existing paid,24.0,2359.0
+<0,existing paid,24.0,2996.0
+no checking,critical/other existing credit,18.0,3780.0
+no checking,existing paid,27.0,5190.0
+0<=X<200,existing paid,36.0,4795.0
+<0,all paid,12.0,697.0
+no checking,no credits/all paid,18.0,4165.0
+<0,existing paid,14.0,3973.0
+no checking,critical/other existing credit,18.0,1864.0
+>=200,critical/other existing credit,6.0,1047.0
+no checking,existing paid,18.0,433.0
+0<=X<200,existing paid,36.0,3711.0
+0<=X<200,existing paid,9.0,1206.0
+no checking,existing paid,6.0,1543.0
+no checking,critical/other existing credit,4.0,3380.0
+>=200,existing paid,24.0,1258.0
+no checking,existing paid,12.0,2073.0
+<0,existing paid,21.0,2606.0
+no checking,critical/other existing credit,12.0,2096.0
+no checking,critical/other existing credit,12.0,1255.0
+no checking,existing paid,9.0,1236.0
+no checking,existing paid,24.0,1278.0
+<0,existing paid,6.0,1374.0
+>=200,existing paid,10.0,3949.0
+no checking,existing paid,12.0,2390.0
+0<=X<200,existing paid,24.0,1201.0
+no checking,critical/other existing credit,15.0,2788.0
+no checking,critical/other existing credit,12.0,1264.0
+<0,existing paid,24.0,4020.0
+no checking,existing paid,9.0,2507.0
+no checking,existing paid,24.0,2397.0
+0<=X<200,existing paid,27.0,3915.0
+no checking,critical/other existing credit,48.0,11590.0
+<0,existing paid,42.0,7882.0
+no checking,critical/other existing credit,12.0,1495.0
+no checking,existing paid,24.0,2255.0
+0<=X<200,existing paid,9.0,1549.0
+no checking,existing paid,30.0,4811.0
+0<=X<200,existing paid,14.0,1410.0
+no checking,existing paid,5.0,3448.0
+0<=X<200,delayed previously,11.0,4771.0
+<0,existing paid,10.0,2315.0
+<0,existing paid,48.0,4788.0
+no checking,existing paid,18.0,1568.0
+no checking,all paid,15.0,1569.0
+<0,critical/other existing credit,40.0,5998.0
+no checking,critical/other existing credit,18.0,1169.0
+0<=X<200,existing paid,12.0,1223.0
+<0,existing paid,18.0,2659.0
+no checking,critical/other existing credit,6.0,700.0
+no checking,existing paid,10.0,2848.0
+<0,existing paid,9.0,1366.0
+no checking,existing paid,36.0,9055.0
+<0,existing paid,24.0,1987.0
+<0,existing paid,24.0,2924.0
+0<=X<200,existing paid,18.0,2622.0
+no checking,critical/other existing credit,36.0,6304.0
+no checking,delayed previously,36.0,4463.0
+no checking,existing paid,36.0,7409.0
+no checking,delayed previously,24.0,717.0
+<0,existing paid,20.0,2212.0
+<0,all paid,18.0,1553.0
+0<=X<200,existing paid,18.0,12976.0
+no checking,critical/other existing credit,12.0,1934.0
+<0,critical/other existing credit,33.0,4281.0
+<0,critical/other existing credit,16.0,2625.0
+<0,critical/other existing credit,6.0,666.0
+no checking,existing paid,24.0,3488.0
+0<=X<200,critical/other existing credit,30.0,5234.0
+no checking,critical/other existing credit,6.0,1382.0
+no checking,existing paid,36.0,3349.0
+no checking,existing paid,15.0,1213.0
+0<=X<200,existing paid,12.0,836.0
+<0,existing paid,12.0,1289.0
+no checking,critical/other existing credit,12.0,1258.0
+<0,existing paid,30.0,2522.0
+no checking,existing paid,12.0,1076.0
+no checking,existing paid,36.0,3835.0
+no checking,existing paid,18.0,1505.0
+<0,existing paid,30.0,2406.0
+0<=X<200,delayed previously,15.0,1512.0
+<0,existing paid,12.0,7865.0
+0<=X<200,critical/other existing credit,18.0,3590.0
+<0,all paid,24.0,3349.0
+<0,existing paid,18.0,7511.0
+<0,existing paid,36.0,5493.0
+no checking,existing paid,18.0,1950.0
+>=200,delayed previously,12.0,2247.0
+no checking,delayed previously,33.0,2764.0
+0<=X<200,delayed previously,30.0,1919.0
+no checking,existing paid,9.0,1313.0
+0<=X<200,existing paid,36.0,6948.0
+<0,existing paid,12.0,1282.0
+no checking,delayed previously,24.0,2032.0
+no checking,existing paid,12.0,1884.0
+<0,existing paid,30.0,3622.0
+0<=X<200,critical/other existing credit,12.0,958.0
+no checking,critical/other existing credit,36.0,5711.0
+no checking,existing paid,24.0,3621.0
+<0,no credits/all paid,24.0,4110.0
+0<=X<200,existing paid,12.0,2930.0
+<0,existing paid,12.0,1498.0
+no checking,critical/other existing credit,24.0,2578.0
+<0,all paid,24.0,1358.0
+0<=X<200,existing paid,36.0,2273.0
+0<=X<200,critical/other existing credit,12.0,3124.0
+0<=X<200,no credits/all paid,12.0,2969.0
+>=200,existing paid,12.0,1424.0
+no checking,existing paid,24.0,2670.0
+no checking,existing paid,9.0,1478.0
+no checking,critical/other existing credit,18.0,3229.0
+0<=X<200,all paid,48.0,6416.0
+<0,no credits/all paid,27.0,5293.0
+0<=X<200,existing paid,30.0,3832.0
+<0,critical/other existing credit,36.0,5371.0
+>=200,critical/other existing credit,24.0,1344.0
+no checking,critical/other existing credit,42.0,4042.0
+<0,existing paid,18.0,3509.0
+>=200,critical/other existing credit,15.0,2360.0
+0<=X<200,existing paid,18.0,3213.0
+0<=X<200,delayed previously,6.0,1209.0
+<0,all paid,6.0,1198.0
+no checking,existing paid,18.0,1984.0
+0<=X<200,delayed previously,30.0,2503.0
+no checking,existing paid,24.0,5511.0
+<0,existing paid,12.0,1228.0
+no checking,existing paid,9.0,3832.0
+<0,critical/other existing credit,6.0,1169.0
+<0,existing paid,12.0,708.0
+0<=X<200,existing paid,48.0,6560.0
+no checking,existing paid,24.0,1552.0
+<0,critical/other existing credit,24.0,1382.0
+no checking,delayed previously,12.0,1503.0
+>=200,existing paid,24.0,5152.0
+0<=X<200,delayed previously,18.0,2899.0
+0<=X<200,delayed previously,24.0,2064.0
+<0,critical/other existing credit,12.0,2121.0
+no checking,critical/other existing credit,9.0,2406.0
+no checking,existing paid,15.0,3186.0
+<0,existing paid,48.0,6999.0
+no checking,existing paid,15.0,1386.0
+no checking,critical/other existing credit,12.0,618.0
+no checking,critical/other existing credit,24.0,6842.0
+0<=X<200,delayed previously,36.0,4455.0
+<0,existing paid,30.0,11998.0
+no checking,delayed previously,36.0,8947.0
+no checking,existing paid,36.0,2394.0
+0<=X<200,existing paid,36.0,9398.0
+<0,delayed previously,36.0,6887.0
+no checking,existing paid,6.0,672.0
+0<=X<200,existing paid,12.0,2762.0
+no checking,critical/other existing credit,12.0,5801.0
+no checking,critical/other existing credit,21.0,2288.0
+no checking,delayed previously,21.0,1591.0
+0<=X<200,critical/other existing credit,18.0,1056.0
+no checking,critical/other existing credit,12.0,1240.0
+no checking,critical/other existing credit,36.0,11054.0
+no checking,existing paid,36.0,909.0
+0<=X<200,existing paid,7.0,2415.0
+no checking,critical/other existing credit,24.0,2223.0
+no checking,existing paid,6.0,2108.0
+0<=X<200,critical/other existing credit,15.0,2326.0
+no checking,critical/other existing credit,15.0,1471.0
+0<=X<200,critical/other existing credit,24.0,1935.0
+no checking,existing paid,15.0,5324.0
+>=200,existing paid,6.0,709.0
+0<=X<200,existing paid,8.0,1414.0
+no checking,existing paid,24.0,2835.0
+<0,critical/other existing credit,13.0,1797.0
+0<=X<200,existing paid,12.0,1037.0
+0<=X<200,critical/other existing credit,42.0,5954.0
+no checking,delayed previously,36.0,4454.0
+<0,existing paid,48.0,3051.0
+no checking,critical/other existing credit,12.0,1291.0
+0<=X<200,all paid,48.0,3566.0
+no checking,critical/other existing credit,6.0,1221.0
+no checking,critical/other existing credit,4.0,1544.0
+0<=X<200,existing paid,12.0,625.0
+0<=X<200,existing paid,12.0,2002.0
+<0,existing paid,24.0,3123.0
+no checking,existing paid,15.0,2708.0
+no checking,critical/other existing credit,12.0,3565.0
+>=200,critical/other existing credit,12.0,1480.0
+no checking,critical/other existing credit,15.0,1360.0
+0<=X<200,existing paid,12.0,1158.0
+0<=X<200,existing paid,12.0,1103.0
+<0,existing paid,24.0,7721.0
+<0,existing paid,18.0,1217.0
+0<=X<200,existing paid,12.0,6468.0
+0<=X<200,existing paid,24.0,2039.0
+0<=X<200,delayed previously,20.0,2629.0
+>=200,critical/other existing credit,15.0,1271.0
+no checking,existing paid,12.0,804.0
+no checking,critical/other existing credit,10.0,2069.0
+no checking,delayed previously,48.0,7238.0
+>=200,existing paid,18.0,3049.0
+0<=X<200,existing paid,15.0,2631.0
+0<=X<200,existing paid,30.0,3441.0
+no checking,existing paid,24.0,2284.0
+<0,critical/other existing credit,18.0,1049.0
+<0,existing paid,24.0,4169.0
+0<=X<200,delayed previously,27.0,5965.0
+0<=X<200,all paid,15.0,6850.0
+<0,critical/other existing credit,6.0,1361.0
+no checking,critical/other existing credit,18.0,1817.0
+no checking,critical/other existing credit,24.0,1940.0
+no checking,critical/other existing credit,10.0,1231.0
+no checking,critical/other existing credit,6.0,1554.0
+no checking,critical/other existing credit,18.0,629.0
+no checking,delayed previously,15.0,1478.0
+<0,no credits/all paid,45.0,11816.0
+<0,existing paid,6.0,1203.0
+0<=X<200,existing paid,7.0,2576.0
+0<=X<200,existing paid,24.0,12579.0
+no checking,critical/other existing credit,30.0,7596.0
+no checking,delayed previously,15.0,960.0
+0<=X<200,existing paid,48.0,3979.0
+no checking,critical/other existing credit,24.0,2058.0
+<0,existing paid,18.0,3650.0
+<0,existing paid,24.0,1755.0
+0<=X<200,critical/other existing credit,15.0,1537.0
+no checking,existing paid,12.0,1493.0
+0<=X<200,all paid,48.0,12169.0
+<0,existing paid,47.0,10722.0
+0<=X<200,existing paid,18.0,1239.0
+no checking,existing paid,10.0,727.0
+<0,critical/other existing credit,11.0,3905.0
+no checking,existing paid,6.0,4611.0
+0<=X<200,existing paid,12.0,1567.0
+<0,all paid,21.0,1647.0
+<0,existing paid,36.0,3446.0
+no checking,existing paid,24.0,9277.0
+0<=X<200,no credits/all paid,48.0,12204.0
+no checking,delayed previously,24.0,2978.0
+no checking,existing paid,24.0,5433.0
+0<=X<200,existing paid,15.0,1514.0
+0<=X<200,delayed previously,36.0,8086.0
+<0,delayed previously,24.0,1333.0
+no checking,existing paid,9.0,1388.0
+no checking,existing paid,9.0,1980.0
+<0,existing paid,12.0,2577.0
+no checking,critical/other existing credit,24.0,6314.0
+no checking,critical/other existing credit,6.0,2080.0
+<0,existing paid,18.0,2039.0
+no checking,existing paid,15.0,874.0
+<0,critical/other existing credit,6.0,1957.0
+0<=X<200,existing paid,10.0,7308.0
+>=200,existing paid,24.0,1925.0
+0<=X<200,existing paid,24.0,1355.0
+<0,existing paid,12.0,795.0
+>=200,critical/other existing credit,30.0,3017.0
+<0,all paid,48.0,7685.0
+no checking,critical/other existing credit,12.0,2292.0
+<0,existing paid,36.0,1977.0
+no checking,critical/other existing credit,36.0,7855.0
+no checking,critical/other existing credit,18.0,2775.0
+0<=X<200,delayed previously,21.0,2353.0
+no checking,existing paid,18.0,1820.0
+no checking,existing paid,12.0,2445.0
+<0,existing paid,12.0,1680.0
+<0,delayed previously,18.0,8471.0
+0<=X<200,existing paid,26.0,7966.0
+<0,existing paid,12.0,3386.0
+>=200,critical/other existing credit,12.0,939.0
+no checking,critical/other existing credit,12.0,797.0
+<0,existing paid,24.0,1747.0
+<0,no credits/all paid,12.0,1108.0
+0<=X<200,existing paid,13.0,2101.0
+<0,existing paid,24.0,6579.0
+no checking,delayed previously,48.0,12749.0
+no checking,critical/other existing credit,12.0,522.0
+<0,all paid,24.0,2828.0
+0<=X<200,existing paid,24.0,2718.0
+>=200,existing paid,10.0,1240.0
+0<=X<200,existing paid,12.0,1318.0
+<0,existing paid,48.0,4308.0
+<0,existing paid,12.0,2578.0
+no checking,existing paid,24.0,1311.0
+<0,critical/other existing credit,30.0,6187.0
+0<=X<200,delayed previously,18.0,6204.0
+0<=X<200,existing paid,6.0,1068.0
+0<=X<200,existing paid,11.0,1577.0
+no checking,critical/other existing credit,24.0,1585.0
+<0,all paid,18.0,1940.0
+0<=X<200,no credits/all paid,24.0,4241.0
+>=200,critical/other existing credit,6.0,1299.0
+no checking,existing paid,24.0,1469.0
+no checking,critical/other existing credit,28.0,2743.0
+no checking,existing paid,12.0,1963.0
+0<=X<200,critical/other existing credit,48.0,5096.0
+<0,existing paid,12.0,2579.0
+no checking,delayed previously,36.0,7678.0
+0<=X<200,critical/other existing credit,30.0,2181.0
+no checking,existing paid,6.0,1538.0
+<0,critical/other existing credit,6.0,338.0
+0<=X<200,delayed previously,39.0,11760.0
+0<=X<200,critical/other existing credit,24.0,4736.0
+>=200,existing paid,24.0,2892.0
+no checking,critical/other existing credit,6.0,1740.0
+0<=X<200,delayed previously,36.0,9857.0
+>=200,existing paid,12.0,1330.0
+>=200,critical/other existing credit,30.0,3656.0
+<0,existing paid,18.0,976.0
+<0,all paid,12.0,2149.0
+<0,existing paid,48.0,7763.0
+<0,critical/other existing credit,6.0,3384.0
+<0,existing paid,24.0,1282.0
+no checking,critical/other existing credit,18.0,1028.0
+no checking,existing paid,24.0,1393.0
+no checking,existing paid,12.0,707.0
+<0,critical/other existing credit,21.0,571.0
+<0,existing paid,36.0,8229.0
+<0,critical/other existing credit,10.0,2241.0
+no checking,critical/other existing credit,12.0,2331.0
+0<=X<200,all paid,30.0,3496.0
+no checking,delayed previously,18.0,2169.0
+0<=X<200,critical/other existing credit,24.0,5743.0
+0<=X<200,existing paid,24.0,11328.0
+no checking,all paid,6.0,1750.0
+0<=X<200,existing paid,24.0,5084.0
+<0,existing paid,12.0,902.0
+<0,existing paid,24.0,3660.0
+>=200,critical/other existing credit,24.0,3617.0
+<0,all paid,24.0,3552.0
+no checking,existing paid,36.0,1819.0
+no checking,existing paid,48.0,3914.0
+0<=X<200,critical/other existing credit,24.0,3878.0
+no checking,existing paid,18.0,3422.0
+<0,existing paid,9.0,2136.0
+0<=X<200,critical/other existing credit,24.0,7758.0
+<0,critical/other existing credit,12.0,1526.0
+0<=X<200,delayed previously,24.0,6403.0
+<0,existing paid,36.0,1842.0
+<0,existing paid,12.0,674.0
+no checking,critical/other existing credit,12.0,1402.0
+0<=X<200,existing paid,6.0,14555.0
+no checking,existing paid,24.0,3757.0
+<0,critical/other existing credit,10.0,2132.0
+no checking,critical/other existing credit,4.0,1455.0
+>=200,existing paid,15.0,2687.0
+<0,critical/other existing credit,21.0,1602.0
+0<=X<200,delayed previously,24.0,1965.0
+<0,existing paid,12.0,701.0
+<0,existing paid,42.0,7174.0
+no checking,existing paid,6.0,1238.0
+<0,critical/other existing credit,6.0,4716.0
+no checking,critical/other existing credit,36.0,9566.0
+no checking,critical/other existing credit,27.0,4526.0
+0<=X<200,existing paid,30.0,2991.0
+0<=X<200,existing paid,18.0,3001.0
+<0,existing paid,14.0,8978.0
+no checking,existing paid,36.0,2299.0
+0<=X<200,critical/other existing credit,9.0,1136.0
+0<=X<200,critical/other existing credit,9.0,1501.0
+0<=X<200,critical/other existing credit,45.0,4576.0
+>=200,existing paid,15.0,2327.0
+0<=X<200,existing paid,24.0,11560.0
+no checking,critical/other existing credit,12.0,2748.0
+no checking,existing paid,12.0,719.0
+no checking,critical/other existing credit,30.0,4530.0
+no checking,critical/other existing credit,48.0,10127.0
+<0,existing paid,21.0,3599.0
+0<=X<200,critical/other existing credit,27.0,2520.0
+no checking,critical/other existing credit,18.0,1582.0
+0<=X<200,existing paid,18.0,1924.0
+no checking,existing paid,22.0,2675.0
+0<=X<200,delayed previously,24.0,2333.0
+<0,no credits/all paid,12.0,6199.0
+<0,existing paid,48.0,10297.0
+<0,existing paid,27.0,3416.0
+0<=X<200,existing paid,24.0,3092.0
+no checking,critical/other existing credit,24.0,1516.0
+no checking,existing paid,15.0,1979.0
+0<=X<200,critical/other existing credit,30.0,4249.0
+no checking,existing paid,24.0,3430.0
+0<=X<200,no credits/all paid,15.0,1778.0
+0<=X<200,existing paid,21.0,1188.0
+0<=X<200,all paid,42.0,9283.0
+<0,existing paid,15.0,1053.0
+0<=X<200,critical/other existing credit,18.0,3612.0
+0<=X<200,critical/other existing credit,21.0,3652.0
+>=200,existing paid,10.0,1225.0
+no checking,all paid,30.0,7485.0
+no checking,existing paid,24.0,1258.0
+<0,existing paid,36.0,8335.0
+no checking,all paid,48.0,3609.0
+no checking,delayed previously,12.0,1555.0
+<0,existing paid,15.0,3959.0
+0<=X<200,delayed previously,24.0,6967.0
+0<=X<200,delayed previously,48.0,7582.0
+0<=X<200,all paid,24.0,1837.0
+<0,existing paid,48.0,6758.0
+<0,all paid,24.0,2483.0
+<0,no credits/all paid,30.0,8072.0
+0<=X<200,existing paid,12.0,639.0
+<0,existing paid,24.0,2910.0
+0<=X<200,delayed previously,60.0,7418.0
+no checking,existing paid,48.0,10222.0
+0<=X<200,existing paid,6.0,454.0
+no checking,existing paid,24.0,4591.0
+no checking,critical/other existing credit,48.0,3578.0
+0<=X<200,delayed previously,60.0,9157.0
+no checking,critical/other existing credit,24.0,4526.0
+no checking,delayed previously,36.0,9572.0
+0<=X<200,no credits/all paid,36.0,3804.0
+<0,critical/other existing credit,12.0,691.0
+no checking,existing paid,21.0,2476.0
+0<=X<200,existing paid,9.0,790.0
+no checking,existing paid,60.0,6527.0
+0<=X<200,all paid,15.0,1264.0
+no checking,critical/other existing credit,36.0,7127.0
+no checking,critical/other existing credit,24.0,2028.0
+no checking,critical/other existing credit,11.0,1393.0
+0<=X<200,existing paid,9.0,3195.0
+<0,all paid,12.0,339.0
+no checking,critical/other existing credit,24.0,4042.0
+no checking,existing paid,12.0,763.0
+no checking,critical/other existing credit,24.0,2424.0
+no checking,existing paid,36.0,4686.0
+no checking,critical/other existing credit,11.0,7228.0
+no checking,existing paid,24.0,7393.0
+no checking,existing paid,12.0,3527.0
+<0,critical/other existing credit,6.0,609.0
+0<=X<200,existing paid,24.0,4113.0
+0<=X<200,critical/other existing credit,12.0,3573.0
+no checking,critical/other existing credit,15.0,1520.0
+>=200,critical/other existing credit,24.0,3148.0
+no checking,existing paid,36.0,3595.0
+no checking,no credits/all paid,36.0,2613.0
+no checking,no credits/all paid,6.0,426.0
+<0,existing paid,12.0,1893.0
+no checking,critical/other existing credit,24.0,1287.0
+<0,delayed previously,36.0,2145.0
+<0,existing paid,18.0,2473.0
+<0,existing paid,24.0,3149.0
+>=200,existing paid,18.0,2100.0
+0<=X<200,existing paid,30.0,1715.0
+0<=X<200,all paid,60.0,14782.0
+no checking,delayed previously,24.0,4679.0
+no checking,existing paid,15.0,3568.0
+<0,critical/other existing credit,20.0,2235.0
+0<=X<200,existing paid,27.0,2528.0
+no checking,delayed previously,21.0,2993.0
+0<=X<200,existing paid,45.0,3031.0
+no checking,delayed previously,36.0,10875.0
+no checking,existing paid,10.0,2210.0
+0<=X<200,critical/other existing credit,24.0,1216.0
+<0,critical/other existing credit,11.0,3939.0
+no checking,delayed previously,24.0,2375.0
+no checking,existing paid,24.0,937.0
+no checking,existing paid,42.0,7166.0
+no checking,existing paid,15.0,1262.0
+no checking,delayed previously,15.0,3594.0
+>=200,existing paid,36.0,5848.0
+0<=X<200,critical/other existing credit,18.0,1795.0
+<0,existing paid,36.0,3959.0
+<0,existing paid,24.0,1285.0
+>=200,existing paid,15.0,392.0
+0<=X<200,existing paid,48.0,10961.0
+no checking,existing paid,9.0,2753.0
+0<=X<200,critical/other existing credit,9.0,1919.0
+0<=X<200,existing paid,12.0,2028.0
+0<=X<200,existing paid,18.0,1042.0
+<0,existing paid,6.0,428.0
+<0,critical/other existing credit,9.0,2799.0
+0<=X<200,critical/other existing credit,39.0,4933.0
+no checking,existing paid,60.0,10366.0
+0<=X<200,critical/other existing credit,12.0,2366.0
+no checking,existing paid,18.0,3378.0
+no checking,existing paid,10.0,1924.0
+no checking,delayed previously,14.0,802.0
+0<=X<200,no credits/all paid,48.0,8358.0
+0<=X<200,critical/other existing credit,12.0,1424.0
+0<=X<200,no credits/all paid,30.0,4221.0
+no checking,all paid,24.0,1559.0
+<0,existing paid,12.0,2214.0
+no checking,existing paid,12.0,3059.0
+no checking,critical/other existing credit,12.0,930.0
+no checking,critical/other existing credit,48.0,6110.0
+no checking,no credits/all paid,12.0,2759.0
+0<=X<200,existing paid,12.0,1922.0
+no checking,delayed previously,24.0,4151.0
+<0,critical/other existing credit,10.0,1038.0
+<0,existing paid,15.0,2511.0
+no checking,critical/other existing credit,30.0,5954.0
+<0,existing paid,12.0,1858.0
+0<=X<200,existing paid,8.0,760.0
+no checking,critical/other existing credit,15.0,1829.0
+<0,critical/other existing credit,18.0,5302.0
+<0,existing paid,12.0,741.0
+no checking,existing paid,10.0,1287.0
+<0,existing paid,24.0,1381.0
+no checking,existing paid,6.0,1346.0
+0<=X<200,delayed previously,48.0,6224.0
+<0,existing paid,18.0,750.0
+no checking,all paid,28.0,7824.0
+no checking,critical/other existing credit,12.0,996.0
+0<=X<200,critical/other existing credit,24.0,2825.0
+no checking,existing paid,10.0,1418.0
+no checking,critical/other existing credit,12.0,682.0
+<0,critical/other existing credit,6.0,860.0
+>=200,no credits/all paid,9.0,1337.0
+0<=X<200,existing paid,9.0,1670.0
+0<=X<200,no credits/all paid,30.0,4280.0
+0<=X<200,critical/other existing credit,18.0,6361.0
+no checking,delayed previously,6.0,1743.0
+0<=X<200,existing paid,12.0,754.0
+<0,critical/other existing credit,8.0,3398.0
+0<=X<200,all paid,9.0,5129.0
+>=200,critical/other existing credit,10.0,781.0
+<0,all paid,18.0,1442.0
+no checking,existing paid,18.0,2051.0
+<0,existing paid,18.0,2462.0
+<0,existing paid,28.0,4006.0
+0<=X<200,existing paid,12.0,951.0
+no checking,existing paid,15.0,1300.0
+no checking,existing paid,24.0,1901.0
+>=200,critical/other existing credit,42.0,4796.0
+no checking,existing paid,18.0,1473.0
+no checking,existing paid,12.0,1768.0
+no checking,critical/other existing credit,24.0,3777.0
+no checking,delayed previously,27.0,5117.0
+<0,critical/other existing credit,42.0,3394.0
+no checking,critical/other existing credit,12.0,717.0
+no checking,critical/other existing credit,36.0,5842.0
+no checking,critical/other existing credit,9.0,1224.0
+0<=X<200,existing paid,12.0,1155.0
+<0,existing paid,21.0,3763.0
+<0,no credits/all paid,12.0,1082.0
+0<=X<200,existing paid,48.0,15672.0
+<0,critical/other existing credit,12.0,3499.0
+no checking,delayed previously,60.0,15653.0
+no checking,delayed previously,24.0,8648.0
+0<=X<200,existing paid,20.0,6468.0
+<0,existing paid,24.0,2812.0
+0<=X<200,all paid,36.0,3990.0
+no checking,existing paid,11.0,2142.0
+no checking,existing paid,10.0,1364.0
+0<=X<200,existing paid,15.0,1308.0
+0<=X<200,no credits/all paid,48.0,18424.0
+0<=X<200,existing paid,12.0,841.0
+0<=X<200,existing paid,6.0,590.0
+<0,existing paid,24.0,3345.0
+<0,existing paid,18.0,2600.0
+<0,existing paid,12.0,3590.0
+no checking,critical/other existing credit,15.0,5045.0
+no checking,existing paid,18.0,1126.0
+<0,all paid,24.0,1193.0
+no checking,existing paid,39.0,8588.0
+no checking,existing paid,24.0,1533.0
+<0,existing paid,18.0,1345.0
+<0,existing paid,12.0,1620.0
+0<=X<200,existing paid,36.0,9034.0
+0<=X<200,existing paid,18.0,6260.0
+0<=X<200,existing paid,15.0,2631.0
+no checking,existing paid,12.0,2141.0
+<0,existing paid,12.0,652.0
+0<=X<200,existing paid,36.0,2671.0
+no checking,existing paid,36.0,5742.0
+no checking,critical/other existing credit,60.0,13756.0
+no checking,existing paid,48.0,4844.0
+no checking,existing paid,18.0,1943.0
+0<=X<200,existing paid,18.0,866.0
+0<=X<200,existing paid,18.0,1941.0
+no checking,critical/other existing credit,24.0,5150.0
+0<=X<200,existing paid,24.0,4351.0
+>=200,existing paid,24.0,947.0
+0<=X<200,existing paid,24.0,1967.0
+no checking,existing paid,15.0,2186.0
+0<=X<200,existing paid,9.0,2118.0
+no checking,existing paid,12.0,776.0
+no checking,existing paid,15.0,3812.0
+<0,critical/other existing credit,39.0,14179.0
+0<=X<200,all paid,9.0,1437.0
+0<=X<200,existing paid,15.0,1444.0
+>=200,all paid,18.0,1445.0
+no checking,delayed previously,18.0,2320.0
+no checking,delayed previously,30.0,4272.0
+no checking,existing paid,15.0,4657.0
+no checking,existing paid,36.0,10974.0
+<0,existing paid,48.0,3931.0
+<0,existing paid,9.0,654.0
+0<=X<200,existing paid,24.0,3758.0
+no checking,existing paid,10.0,1309.0
+<0,delayed previously,42.0,4370.0
+no checking,existing paid,13.0,1409.0
+no checking,existing paid,30.0,1867.0
+<0,existing paid,12.0,1107.0
+no checking,existing paid,12.0,640.0
+no checking,existing paid,24.0,1474.0
+no checking,critical/other existing credit,12.0,976.0
+no checking,delayed previously,36.0,7980.0
+no checking,existing paid,18.0,6761.0
+0<=X<200,no credits/all paid,18.0,2278.0
+0<=X<200,critical/other existing credit,9.0,1154.0
+no checking,critical/other existing credit,24.0,1927.0
+no checking,existing paid,9.0,2301.0
+no checking,critical/other existing credit,12.0,1412.0
+<0,no credits/all paid,48.0,4605.0
+no checking,critical/other existing credit,18.0,1800.0
+no checking,critical/other existing credit,6.0,1898.0
+0<=X<200,existing paid,18.0,1113.0
+0<=X<200,critical/other existing credit,45.0,4746.0
+0<=X<200,existing paid,12.0,1534.0
+<0,no credits/all paid,15.0,950.0
+no checking,critical/other existing credit,24.0,2346.0
+<0,critical/other existing credit,27.0,2442.0
+no checking,critical/other existing credit,15.0,3343.0
+no checking,existing paid,24.0,1249.0
+<0,existing paid,15.0,1845.0
+no checking,existing paid,24.0,2603.0
+0<=X<200,no credits/all paid,54.0,15945.0
+0<=X<200,existing paid,36.0,12389.0
+<0,existing paid,24.0,915.0
+no checking,existing paid,21.0,3160.0
+0<=X<200,existing paid,9.0,1082.0
+<0,critical/other existing credit,15.0,975.0
+<0,existing paid,36.0,3620.0
+0<=X<200,critical/other existing credit,12.0,1995.0
+no checking,critical/other existing credit,36.0,6614.0
+no checking,critical/other existing credit,12.0,1935.0
+<0,existing paid,36.0,3249.0
+no checking,existing paid,24.0,3062.0
+<0,critical/other existing credit,36.0,2348.0
+<0,existing paid,30.0,3108.0
+<0,existing paid,9.0,1364.0
+>=200,existing paid,36.0,3913.0
+<0,delayed previously,24.0,4870.0
+0<=X<200,critical/other existing credit,12.0,3617.0
+no checking,existing paid,15.0,4623.0
+<0,delayed previously,12.0,1344.0
+<0,existing paid,21.0,3357.0
+no checking,critical/other existing credit,6.0,6761.0
+no checking,critical/other existing credit,24.0,2022.0
+no checking,critical/other existing credit,6.0,250.0
+no checking,critical/other existing credit,24.0,5103.0
+0<=X<200,critical/other existing credit,36.0,2337.0
+0<=X<200,existing paid,12.0,7472.0
+<0,existing paid,18.0,1882.0
+<0,existing paid,15.0,806.0
+no checking,critical/other existing credit,24.0,2197.0
+>=200,existing paid,9.0,1126.0
+<0,existing paid,6.0,1352.0
+0<=X<200,existing paid,18.0,5866.0
+0<=X<200,existing paid,18.0,3872.0
+no checking,critical/other existing credit,24.0,2611.0
+no checking,critical/other existing credit,9.0,936.0
+no checking,existing paid,60.0,10144.0
+>=200,all paid,12.0,409.0
+no checking,existing paid,24.0,7814.0
+>=200,existing paid,36.0,4210.0
+no checking,existing paid,6.0,3518.0
+no checking,critical/other existing credit,21.0,3275.0
+0<=X<200,existing paid,36.0,14318.0
+0<=X<200,existing paid,12.0,1092.0
+no checking,existing paid,21.0,2782.0
+no checking,delayed previously,21.0,2580.0
+0<=X<200,existing paid,12.0,983.0
+no checking,existing paid,21.0,1572.0
+0<=X<200,existing paid,18.0,1301.0
+0<=X<200,critical/other existing credit,15.0,2728.0
+0<=X<200,no credits/all paid,36.0,1953.0
+<0,existing paid,6.0,448.0
+no checking,existing paid,12.0,1386.0
+0<=X<200,critical/other existing credit,12.0,1860.0
+0<=X<200,existing paid,6.0,753.0
+no checking,critical/other existing credit,24.0,5507.0
+<0,critical/other existing credit,24.0,2957.0
+no checking,existing paid,15.0,3556.0
+no checking,existing paid,24.0,3181.0
+<0,critical/other existing credit,36.0,9629.0
+<0,existing paid,15.0,1403.0
+<0,critical/other existing credit,9.0,1288.0
+no checking,existing paid,30.0,2333.0
+no checking,critical/other existing credit,6.0,1237.0
+no checking,critical/other existing credit,6.0,362.0
+0<=X<200,critical/other existing credit,16.0,1175.0
+no checking,critical/other existing credit,21.0,12680.0
+<0,no credits/all paid,18.0,3104.0
+no checking,existing paid,24.0,6313.0
+no checking,existing paid,12.0,1262.0
+<0,existing paid,9.0,1422.0
+<0,existing paid,15.0,1275.0
+no checking,existing paid,21.0,5248.0
+0<=X<200,no credits/all paid,20.0,6148.0
+no checking,existing paid,27.0,2570.0
+0<=X<200,existing paid,48.0,9960.0
+<0,critical/other existing credit,48.0,6331.0
+>=200,existing paid,12.0,2251.0
+no checking,critical/other existing credit,15.0,1316.0
+<0,existing paid,15.0,1721.0
+no checking,existing paid,24.0,2679.0
+<0,existing paid,30.0,3857.0
+0<=X<200,delayed previously,36.0,7432.0
+<0,existing paid,24.0,2439.0
+no checking,existing paid,24.0,999.0
+<0,existing paid,12.0,1168.0
+no checking,critical/other existing credit,18.0,1055.0
+0<=X<200,existing paid,12.0,1331.0
+>=200,critical/other existing credit,24.0,1275.0
+0<=X<200,critical/other existing credit,18.0,1887.0
+>=200,existing paid,24.0,1377.0
+no checking,existing paid,39.0,2569.0
+>=200,existing paid,12.0,3016.0
+<0,critical/other existing credit,36.0,8065.0
+0<=X<200,critical/other existing credit,24.0,11938.0
+0<=X<200,delayed previously,24.0,1553.0
+no checking,existing paid,9.0,1449.0
+0<=X<200,existing paid,48.0,5951.0
+0<=X<200,existing paid,6.0,2063.0
+>=200,existing paid,21.0,2923.0
+<0,all paid,24.0,1546.0
+no checking,existing paid,24.0,5943.0
+<0,critical/other existing credit,30.0,10623.0
+>=200,existing paid,12.0,1474.0
+<0,existing paid,24.0,1371.0
+no checking,existing paid,24.0,1413.0
+no checking,critical/other existing credit,18.0,1149.0
+<0,existing paid,24.0,4817.0
+no checking,critical/other existing credit,18.0,3850.0
+<0,critical/other existing credit,12.0,1409.0
+0<=X<200,existing paid,10.0,1521.0
+no checking,critical/other existing credit,12.0,1592.0
+0<=X<200,delayed previously,24.0,4712.0
+no checking,critical/other existing credit,15.0,1459.0
+no checking,critical/other existing credit,36.0,3535.0
+no checking,existing paid,6.0,1595.0
+<0,critical/other existing credit,24.0,1199.0
+<0,all paid,36.0,2746.0
+0<=X<200,existing paid,7.0,2329.0
+0<=X<200,critical/other existing credit,18.0,7374.0
+0<=X<200,existing paid,48.0,3060.0
+<0,existing paid,18.0,1131.0
+<0,existing paid,36.0,5179.0
+<0,existing paid,18.0,1936.0
+<0,no credits/all paid,30.0,4583.0
+<0,existing paid,36.0,15857.0
+no checking,critical/other existing credit,12.0,1163.0
+0<=X<200,critical/other existing credit,30.0,8386.0
+<0,existing paid,24.0,1207.0
+<0,existing paid,18.0,1216.0
+no checking,critical/other existing credit,12.0,1185.0
+<0,existing paid,12.0,1372.0
+0<=X<200,critical/other existing credit,11.0,1322.0
+>=200,delayed previously,6.0,683.0
+>=200,critical/other existing credit,10.0,1347.0
+0<=X<200,no credits/all paid,18.0,3244.0
+0<=X<200,no credits/all paid,12.0,1410.0
+>=200,existing paid,15.0,1905.0
+<0,no credits/all paid,18.0,3114.0
+no checking,existing paid,12.0,2279.0
+<0,existing paid,12.0,759.0
+>=200,existing paid,18.0,1961.0
+0<=X<200,critical/other existing credit,18.0,1245.0
+<0,existing paid,24.0,2964.0
+no checking,existing paid,10.0,894.0
+<0,existing paid,12.0,1274.0
+0<=X<200,existing paid,30.0,2150.0
+<0,existing paid,6.0,2647.0
+0<=X<200,existing paid,12.0,685.0
+no checking,existing paid,18.0,4594.0
+no checking,critical/other existing credit,24.0,2872.0
+no checking,critical/other existing credit,18.0,2404.0
+<0,critical/other existing credit,24.0,1231.0
+0<=X<200,no credits/all paid,48.0,3844.0
+no checking,critical/other existing credit,18.0,2238.0
+<0,existing paid,36.0,9271.0
+no checking,existing paid,10.0,1597.0
+0<=X<200,no credits/all paid,27.0,8318.0
+0<=X<200,existing paid,18.0,4439.0
+no checking,critical/other existing credit,12.0,1655.0
+0<=X<200,existing paid,8.0,1237.0
+<0,existing paid,12.0,900.0
+0<=X<200,existing paid,48.0,8487.0
+0<=X<200,delayed previously,6.0,1050.0
+>=200,critical/other existing credit,6.0,1343.0
+0<=X<200,delayed previously,20.0,7057.0
+no checking,critical/other existing credit,10.0,2146.0
+0<=X<200,existing paid,36.0,12612.0
+<0,existing paid,6.0,343.0
+<0,critical/other existing credit,24.0,6615.0
+no checking,critical/other existing credit,36.0,3342.0
+<0,delayed previously,24.0,1659.0
+no checking,critical/other existing credit,24.0,3868.0
+no checking,delayed previously,18.0,1808.0
+no checking,critical/other existing credit,9.0,2134.0
+no checking,existing paid,12.0,1123.0
+no checking,critical/other existing credit,7.0,730.0
+no checking,all paid,18.0,6458.0
+no checking,existing paid,18.0,2662.0
+no checking,critical/other existing credit,24.0,5804.0
+0<=X<200,existing paid,12.0,1484.0
+no checking,delayed previously,6.0,932.0

@@ -1,0 +1,2 @@
+pk_table,pk_column,fk_table,fk_column
+table2.csv,ParticleID_48,table1.csv,ParticleID_48

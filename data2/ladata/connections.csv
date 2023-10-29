@@ -1,0 +1,194 @@
+﻿Dataset-1,Column-1,Dataset-2,Column-2,Match Type
+clients_registered_lob_firms.csv,Lobbying Firm,payments_clients_lob_firms.csv,Lobbying Firm,equi-overlap
+clients_registered_lob_firms.csv,Client Last Name,payments_clients_lob_firms.csv,Client Last Name,equi-overlap
+clients_registered_lob_firms.csv,Lobbying Firm Registration Form,payments_clients_lob_firms.csv,Lobbying Firm Quarterly Report,same-domain
+clients_registered_lob_firms.csv,Registration Year,payments_clients_lob_firms.csv,Report Year,equi-overlap
+clients_registered_lob_firms.csv,Registration Year,city_proj_agencies_lob_firms.csv,Report Year,equi-overlap
+payments_clients_lob_firms.csv,Report Year,city_proj_agencies_lob_firms.csv,Report Year,equi-overlap
+clients_registered_lob_firms.csv,Lobbying Firm,city_proj_agencies_lob_firms.csv,Lobbying Firm,equi-overlap
+payments_clients_lob_firms.csv,Lobbying Firm,city_proj_agencies_lob_firms.csv,Lobbying Firm,equi-overlap
+clients_registered_lob_firms.csv,Client Last Name,city_proj_agencies_lob_firms.csv,Client Last Name,equi-overlap
+payments_clients_lob_firms.csv,Client Last Name,city_proj_agencies_lob_firms.csv,Client Last Name,equi-overlap
+payments_clients_lob_firms.csv,Lobbying Firm Quarterly Report,city_proj_agencies_lob_firms.csv,Lobbying Firm Quarterly Report,equi-overlap
+clients_registered_lob_firms.csv,Lobbying Firm Registration Form,city_proj_agencies_lob_firms.csv,Lobbying Firm Quarterly Report,same-domain
+city_campaign_contribs.csv,Contribution Date,city_campaign_contribs.csv,Period Beg Date,equi-overlap
+city_campaign_contribs.csv,Contribution Date,city_campaign_contribs.csv,Period End Date,equi-overlap
+city_campaign_contribs.csv,Contribution Date,city_campaign_contribs.csv,Election Date,equi-overlap
+city_campaign_contribs.csv,Period Beg Date,city_campaign_contribs.csv,Election Date,same-domain
+city_campaign_contribs.csv,Period Beg Date,city_campaign_contribs.csv,Period End Date,equi-overlap
+city_campaign_contribs.csv,Period End Date,city_campaign_contribs.csv,Period End Date,same-domain
+city_campaign_contribs.csv,Contributor,clients_registered_lob_firms.csv,Lobbying Firm,equi-overlap
+city_campaign_contribs.csv,Contributor,payments_clients_lob_firms.csv,Lobbying Firm,equi-overlap
+city_campaign_contribs.csv,Contributor,city_proj_agencies_lob_firms.csv,Lobbying Firm,equi-overlap
+city_campaign_contribs.csv,Contributor State,clients_registered_lob_firms.csv,Client State,equi-overlap
+clients_registered_lob_firms.csv,Date Registered,clients_registered_lob_firms.csv,Date Representation Began,equi-overlap
+clients_registered_lob_firms.csv,Date Registered,clients_registered_lob_firms.csv,Date Terminated,equi-overlap
+clients_registered_lob_firms.csv,Date Representation Began,clients_registered_lob_firms.csv,Date Terminated,equi-overlap
+city_campaign_contribs.csv,Contribution Date,clients_registered_lob_firms.csv,Date Registered,equi-overlap
+city_campaign_contribs.csv,Contribution Date,clients_registered_lob_firms.csv,Date Representation Began,equi-overlap
+city_campaign_contribs.csv,Contribution Date,clients_registered_lob_firms.csv,Date Terminated,equi-overlap
+city_campaign_contribs.csv,Period Beg Date,clients_registered_lob_firms.csv,Date Registered,equi-overlap
+city_campaign_contribs.csv,Period Beg Date,clients_registered_lob_firms.csv,Date Representation Began,equi-overlap
+city_campaign_contribs.csv,Period Beg Date,clients_registered_lob_firms.csv,Date Terminated,equi-overlap
+city_campaign_contribs.csv,Period End Date,clients_registered_lob_firms.csv,Date Registered,equi-overlap
+city_campaign_contribs.csv,Period End Date,clients_registered_lob_firms.csv,Date Representation Began,equi-overlap
+city_campaign_contribs.csv,Period End Date,clients_registered_lob_firms.csv,Date Terminated,equi-overlap
+city_campaign_contribs.csv,Election Date,clients_registered_lob_firms.csv,Date Registered,equi-overlap
+city_campaign_contribs.csv,Election Date,clients_registered_lob_firms.csv,Date Representation Began,equi-overlap
+city_campaign_contribs.csv,Election Date,clients_registered_lob_firms.csv,Date Terminated,equi-overlap
+city_campaign_contribs.csv,Contributor City,clients_registered_lob_firms.csv,Client City,equi-overlap
+city_campaign_contribs.csv,Contributor Zip,clients_registered_lob_firms.csv,Client Zip,equi-overlap
+asset_inventory.csv,Creation Date,asset_inventory.csv,Last Update Date (data),same-domain
+asset_inventory.csv,Creation Date,clients_registered_lob_firms.csv,Date Registered,sem-overlap
+asset_inventory.csv,Creation Date,clients_registered_lob_firms.csv,Date Representation Began,sem-overlap
+asset_inventory.csv,Creation Date,clients_registered_lob_firms.csv,Date Terminated,sem-overlap
+asset_inventory.csv,Creation Date,city_campaign_contribs.csv,Contribution Date,sem-overlap
+asset_inventory.csv,Creation Date,city_campaign_contribs.csv,Period Beg Date,sem-overlap
+asset_inventory.csv,Creation Date,city_campaign_contribs.csv,Period End Date,sem-overlap
+asset_inventory.csv,Creation Date,city_campaign_contribs.csv,Election Date,sem-overlap
+asset_inventory.csv,Last Update Date (data),clients_registered_lob_firms.csv,Date Registered,sem-overlap
+asset_inventory.csv,Last Update Date (data),clients_registered_lob_firms.csv,Date Representation Began,sem-overlap
+asset_inventory.csv,Last Update Date (data),clients_registered_lob_firms.csv,Date Terminated,sem-overlap
+asset_inventory.csv,Last Update Date (data),city_campaign_contribs.csv,Contribution Date,sem-overlap
+asset_inventory.csv,Last Update Date (data),city_campaign_contribs.csv,Period Beg Date,sem-overlap
+asset_inventory.csv,Last Update Date (data),city_campaign_contribs.csv,Period End Date,sem-overlap
+asset_inventory.csv,Last Update Date (data),city_campaign_contribs.csv,Election Date,sem-overlap
+asset_inventory.csv,U ID,asset_inventory.csv,Owner UID,same-domain
+asset_inventory.csv,U ID,asset_inventory.csv,Parent UID,sem-overlap
+asset_inventory.csv,Owner UID,asset_inventory.csv,Parent UID,same-domain
+asset_inventory.csv,URL,asset_inventory.csv,api_endpoint,sem-overlap
+asset_inventory.csv,Source Link,asset_inventory.csv,api_endpoint,sem-overlap
+asset_inventory.csv,URL,asset_inventory.csv,Source Link,sem-overlap
+election_list.csv,CONSOLIDATION,election_list.csv,PRECINCT,equi-overlap
+election_list.csv,POLLING PLACE ZIP,city_campaign_contribs.csv,Contributor Zip,equi-overlap
+election_list.csv,POLLING PLACE ZIP,clients_registered_lob_firms.csv,Client Zip,equi-overlap
+election_list.csv,POLLING PLACE CITY,clients_registered_lob_firms.csv,Client City,equi-overlap
+election_list.csv,POLLING PLACE CITY,city_campaign_contribs.csv,Contributor City,equi-overlap
+city_reg_lobbyists.csv,Registration Year,city_proj_agencies_lob_firms.csv,Report Year,equi-overlap
+city_reg_lobbyists.csv,Registration Year,payments_clients_lob_firms.csv,Report Year,equi-overlap
+city_reg_lobbyists.csv,Registration Year,clients_registered_lob_firms.csv,Registration Year,equi-overlap
+city_reg_lobbyists.csv,Lobbyist First Name,city_reg_lobbyists.csv,Lobbyist Last name,equi-overlap
+city_reg_lobbyists.csv,Lobbyist First Name,clients_registered_lob_firms.csv,Client Last Name,equi-overlap
+city_reg_lobbyists.csv,Lobbyist First Name,payments_clients_lob_firms.csv,Client Last Name,equi-overlap
+city_reg_lobbyists.csv,Lobbyist First Name,city_proj_agencies_lob_firms.csv,Client Last Name,equi-overlap
+city_reg_lobbyists.csv,Lobbyist Last name,city_proj_agencies_lob_firms.csv,Client Last Name,equi-overlap
+city_reg_lobbyists.csv,Lobbyist Last name,clients_registered_lob_firms.csv,Client Last Name,equi-overlap
+city_reg_lobbyists.csv,Lobbyist Last name,payments_clients_lob_firms.csv,Client Last Name,equi-overlap
+city_reg_lobbyists.csv,Lobbyist First Name,city_campaign_contribs.csv,Contributor,equi-overlap
+city_reg_lobbyists.csv,Lobbyist Last name,city_campaign_contribs.csv,Contributor,equi-overlap
+city_reg_lobbyists.csv,Lobbyist First Name,city_campaign_contribs.csv,Candidate/Officeholder,sem-overlap
+city_reg_lobbyists.csv,Lobbyist Last name,city_campaign_contribs.csv,Candidate/Officeholder,sem-overlap
+city_reg_lobbyists.csv,Lobbyist First Name,asset_inventory.csv,Owner,sem-overlap
+city_reg_lobbyists.csv,Lobbyist Last name,asset_inventory.csv,Owner,sem-overlap
+clients_registered_lob_firms.csv,Client Last Name,asset_inventory.csv,Owner,sem-overlap
+payments_clients_lob_firms.csv,Client Last Name,asset_inventory.csv,Owner,sem-overlap
+city_proj_agencies_lob_firms.csv,Client Last Name,asset_inventory.csv,Owner,sem-overlap
+clients_registered_lob_firms.csv,Client Last Name,city_campaign_contribs.csv,Candidate/Officeholder,sem-overlap
+payments_clients_lob_firms.csv,Client Last Name,city_campaign_contribs.csv,Candidate/Officeholder,sem-overlap
+city_proj_agencies_lob_firms.csv,Client Last Name,city_campaign_contribs.csv,Candidate/Officeholder,sem-overlap
+asset_inventory.csv,Owner,city_campaign_contribs.csv,Candidate/Officeholder,sem-overlap
+city_reg_lobbyists.csv,Lobbyist Registration Form,clients_registered_lob_firms.csv,Lobbying Firm Registration Form,same-domain
+city_reg_lobbyists.csv,Lobbyist Registration Form,payments_clients_lob_firms.csv,Lobbying Firm Quarterly Report,same-domain
+city_reg_lobbyists.csv,Lobbyist Registration Form,city_proj_agencies_lob_firms.csv,Lobbying Firm Quarterly Report,same-domain
+city_reg_lobbyists.csv,Lobbyist Registration Form,asset_inventory.csv,URL,same-domain
+city_reg_lobbyists.csv,Lobbyist Registration Form,asset_inventory.csv,Source Link,same-domain
+city_reg_lobbyists.csv,Lobbyist Registration Form,asset_inventory.csv,api_endpoint,same-domain
+clients_registered_lob_firms.csv,Lobbying Firm Registration Form,asset_inventory.csv,URL,same-domain
+clients_registered_lob_firms.csv,Lobbying Firm Registration Form,asset_inventory.csv,Source Link,same-domain
+clients_registered_lob_firms.csv,Lobbying Firm Registration Form,asset_inventory.csv,api_endpoint,same-domain
+payments_clients_lob_firms.csv,Lobbying Firm Quarterly Report,asset_inventory.csv,URL,same-domain
+payments_clients_lob_firms.csv,Lobbying Firm Quarterly Report,asset_inventory.csv,Source Link,same-domain
+payments_clients_lob_firms.csv,Lobbying Firm Quarterly Report,asset_inventory.csv,api_endpoint,same-domain
+city_proj_agencies_lob_firms.csv,Lobbying Firm Quarterly Report,asset_inventory.csv,URL,same-domain
+city_proj_agencies_lob_firms.csv,Lobbying Firm Quarterly Report,asset_inventory.csv,Source Link,same-domain
+city_proj_agencies_lob_firms.csv,Lobbying Firm Quarterly Report,asset_inventory.csv,api_endpoint,same-domain
+city_reg_lobbyists.csv,Lobbyist City,election_list.csv,POLLING PLACE CITY,equi-overlap
+city_reg_lobbyists.csv,Lobbyist City,clients_registered_lob_firms.csv,Client City,equi-overlap
+city_reg_lobbyists.csv,Lobbyist City,city_campaign_contribs.csv,Contributor City,equi-overlap
+city_reg_lobbyists.csv,Lobbyist State,clients_registered_lob_firms.csv,Client State,equi-overlap
+city_reg_lobbyists.csv,Lobbyist State,city_campaign_contribs.csv,Contributor State,equi-overlap
+city_reg_lobbyists.csv,Lobbyist Zip,clients_registered_lob_firms.csv,Client Zip,equi-overlap
+city_reg_lobbyists.csv,Lobbyist Zip,city_campaign_contribs.csv,Contributor Zip,equi-overlap
+city_reg_lobbyists.csv,Lobbyist Zip,election_list.csv,POLLING PLACE ZIP,equi-overlap
+city_reg_lobbyists.csv,Lobbyist Telephone,clients_registered_lob_firms.csv,Client Telephone,equi-overlap
+city_reg_lobbyists.csv,Date Qualified,city_reg_lobbyists.csv,Date Terminated,equi-overlap
+city_reg_lobbyists.csv,Date Qualified,city_reg_lobbyists.csv,Date Registered,equi-overlap
+city_reg_lobbyists.csv,Date Registered,city_reg_lobbyists.csv,Date Terminated,equi-overlap
+city_reg_lobbyists.csv,Date Qualified,asset_inventory.csv,Creation Date,sem-overlap
+city_reg_lobbyists.csv,Date Qualified,asset_inventory.csv,Last Update Date (data),sem-overlap
+city_reg_lobbyists.csv,Date Terminated,asset_inventory.csv,Creation Date,sem-overlap
+city_reg_lobbyists.csv,Date Terminated,asset_inventory.csv,Last Update Date (data),sem-overlap
+city_reg_lobbyists.csv,Date Registered,asset_inventory.csv,Creation Date,sem-overlap
+city_reg_lobbyists.csv,Date Registered,asset_inventory.csv,Last Update Date (data),sem-overlap
+city_reg_lobbyists.csv,Date Qualified,clients_registered_lob_firms.csv,Date Registered,equi-overlap
+city_reg_lobbyists.csv,Date Qualified,clients_registered_lob_firms.csv,Date Terminated,equi-overlap
+city_reg_lobbyists.csv,Date Qualified,clients_registered_lob_firms.csv,Date Representation Began,equi-overlap
+city_reg_lobbyists.csv,Date Terminated,clients_registered_lob_firms.csv,Date Registered,equi-overlap
+city_reg_lobbyists.csv,Date Terminated,clients_registered_lob_firms.csv,Date Terminated,equi-overlap
+city_reg_lobbyists.csv,Date Terminated,clients_registered_lob_firms.csv,Date Representation Began,equi-overlap
+city_reg_lobbyists.csv,Date Registered,clients_registered_lob_firms.csv,Date Registered,equi-overlap
+city_reg_lobbyists.csv,Date Registered,clients_registered_lob_firms.csv,Date Terminated,equi-overlap
+city_reg_lobbyists.csv,Date Registered,clients_registered_lob_firms.csv,Date Representation Began,equi-overlap
+city_reg_lobbyists.csv,Date Qualified,city_campaign_contribs.csv,Period Beg Date,equi-overlap
+city_reg_lobbyists.csv,Date Qualified,city_campaign_contribs.csv,Period End Date,equi-overlap
+city_reg_lobbyists.csv,Date Qualified,city_campaign_contribs.csv,Election Date,equi-overlap
+city_reg_lobbyists.csv,Date Qualified,city_campaign_contribs.csv,Contribution Date,equi-overlap
+city_reg_lobbyists.csv,Date Terminated,city_campaign_contribs.csv,Period Beg Date,equi-overlap
+city_reg_lobbyists.csv,Date Terminated,city_campaign_contribs.csv,Period End Date,equi-overlap
+city_reg_lobbyists.csv,Date Terminated,city_campaign_contribs.csv,Election Date,equi-overlap
+city_reg_lobbyists.csv,Date Terminated,city_campaign_contribs.csv,Contribution Date,equi-overlap
+city_reg_lobbyists.csv,Date Registered,city_campaign_contribs.csv,Period Beg Date,equi-overlap
+city_reg_lobbyists.csv,Date Registered,city_campaign_contribs.csv,Period End Date,equi-overlap
+city_reg_lobbyists.csv,Date Registered,city_campaign_contribs.csv,Election Date,equi-overlap
+city_reg_lobbyists.csv,Date Registered,city_campaign_contribs.csv,Contribution Date,equi-overlap
+city_reg_lobbyists.csv,Lobbyist Street Address,election_list.csv,POLLING PLACE STREET,same-domain
+clients_registered_lob_firms.csv,Client Street Address,election_list.csv,POLLING PLACE STREET,equi-overlap
+city_reg_lobbyists.csv,Lobbyist Street Address,clients_registered_lob_firms.csv,Client Street Address,equi-overlap
+city_reg_lobbyists.csv,Lobbying Firm,clients_registered_lob_firms.csv,Lobbying Firm,equi-overlap
+city_reg_lobbyists.csv,Lobbying Firm,payments_clients_lob_firms.csv,Lobbying Firm,equi-overlap
+city_reg_lobbyists.csv,Lobbying Firm,city_proj_agencies_lob_firms.csv,Lobbying Firm,equi-overlap
+positions.csv,Department Name,asset_inventory.csv,Department,equi-overlap
+open_budget.csv,Fiscal_Year,clients_registered_lob_firms.csv,Registration Year,equi-overlap
+open_budget.csv,Fiscal_Year,payments_clients_lob_firms.csv,Report Year,equi-overlap
+open_budget.csv,Fiscal_Year,city_proj_agencies_lob_firms.csv,Report Year,equi-overlap
+open_budget.csv,Fiscal_Year,city_reg_lobbyists.csv,Registration Year,equi-overlap
+positions.csv,Department Name,open_budget.csv,Department_Name,equi-overlap
+positions.csv,Department Name,asset_inventory.csv,Department,equi-overlap
+open_budget.csv,Department_Name,open_budget.csv,SubDepartment_Name,equi-overlap
+open_budget.csv,SubDepartment_Name,positions.csv,Department Name,equi-overlap
+open_budget.csv,SubDepartment_Name,asset_inventory.csv,Department,equi-overlap
+clients_registered_lob_firms.csv,City Agencies,city_proj_agencies_lob_firms.csv,City Agencies Lobbied,equi-overlap
+open_budget.csv,Program_Name,positions.csv,Program Name,equi-overlap
+open_budget.csv,Source_Fund_Name,positions.csv,Source Fund Name,equi-overlap
+performance_measures.csv,Department Name,performance_measures.csv,SubDept Name,equi-overlap
+performance_measures.csv,Department Name,positions.csv,Department Name,equi-overlap
+performance_measures.csv,Department Name,open_budget.csv,Department_Name,equi-overlap
+performance_measures.csv,Department Name,open_budget.csv,SubDepartment_Name,equi-overlap
+performance_measures.csv,Department Name,asset_inventory.csv,Department,equi-overlap
+performance_measures.csv,SubDept Name,positions.csv,Department Name,equi-overlap
+performance_measures.csv,SubDept Name,open_budget.csv,Department_Name,equi-overlap
+performance_measures.csv,SubDept Name,open_budget.csv,SubDepartment_Name,equi-overlap
+performance_measures.csv,SubDept Name,asset_inventory.csv,Department,equi-overlap
+performance_measures.csv,SubDept Code,open_budget.csv,SubDept_Code,equi-overlap
+performance_measures.csv,Program Name,open_budget.csv,Program_Name,equi-overlap
+performance_measures.csv,Program Name,positions.csv,Program Name,equi-overlap
+performance_measures.csv,Budget,positions.csv,Budget,equi-overlap
+all_businesses.csv,BUSINESS NAME,clients_registered_lob_firms.csv,Client Last Name,equi-overlap
+all_businesses.csv,BUSINESS NAME,payments_clients_lob_firms.csv,Client Last Name,equi-overlap
+all_businesses.csv,BUSINESS NAME,city_campaign_contribs.csv,Contributor,equi-overlap
+all_businesses.csv,BUSINESS NAME,city_proj_agencies_lob_firms.csv,Client Last Name,equi-overlap
+all_businesses.csv,BUSINESS NAME,city_reg_lobbyists.csv,Lobbyist First Name,equi-overlap
+all_businesses.csv,BUSINESS NAME,asset_inventory.csv,Owner,equi-overlap
+all_businesses.csv,STREET ADDRESS,city_reg_lobbyists.csv,Lobbyist Street Address,equi-overlap
+all_businesses.csv,STREET ADDRESS,clients_registered_lob_firms.csv,Client Street Address,equi-overlap
+all_businesses.csv,STREET ADDRESS,election_list.csv,POLLING PLACE STREET,equi-overlap
+all_businesses.csv,CITY,city_reg_lobbyists.csv,Lobbyist City,equi-overlap
+all_businesses.csv,CITY,election_list.csv,POLLING PLACE CITY,equi-overlap
+all_businesses.csv,CITY,city_campaign_contribs.csv,Contributor City,equi-overlap
+all_businesses.csv,CITY,clients_registered_lob_firms.csv,Client City,equi-overlap
+asset_inventory.csv,Category,open_budget.csv,Program_Priority,equi-overlap
+all_businesses.csv,ZIP CODE,clients_registered_lob_firms.csv,Client Zip,sem-overlap
+all_businesses.csv,ZIP CODE,city_reg_lobbyists.csv,Lobbyist Zip,sem-overlap
+all_businesses.csv,ZIP CODE,city_campaign_contribs.csv,Contributor Zip,sem-overlap
+all_businesses.csv,ZIP CODE,election_list.csv,POLLING PLACE ZIP,sem-overlap
+open_budget.csv,Department_Name,asset_inventory.csv,Department,equi-overlap

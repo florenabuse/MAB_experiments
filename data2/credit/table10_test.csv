@@ -1,0 +1,201 @@
+credit/table10.checking_status,credit/table10.own_telephone,credit/table10.property_magnitude,credit_amount
+<0,none,real estate,3190.0
+<0,yes,car,4380.0
+<0,none,car,2325.0
+>=200,none,real estate,1297.0
+no checking,yes,car,7253.0
+<0,none,real estate,2384.0
+>=200,yes,real estate,2116.0
+0<=X<200,none,real estate,585.0
+no checking,none,real estate,3577.0
+no checking,none,car,8613.0
+0<=X<200,none,real estate,484.0
+<0,none,car,3965.0
+no checking,none,car,1376.0
+<0,none,no known property,7297.0
+0<=X<200,none,no known property,6288.0
+<0,none,car,4153.0
+no checking,yes,no known property,3368.0
+no checking,none,car,1098.0
+<0,none,real estate,2124.0
+<0,none,life insurance,3643.0
+no checking,yes,no known property,8858.0
+<0,none,life insurance,3414.0
+no checking,yes,car,6070.0
+no checking,none,real estate,1503.0
+no checking,none,real estate,3074.0
+<0,none,car,1823.0
+0<=X<200,none,car,2323.0
+>=200,none,life insurance,6289.0
+no checking,none,no known property,10477.0
+no checking,yes,no known property,2859.0
+0<=X<200,none,real estate,882.0
+>=200,yes,car,1881.0
+no checking,none,life insurance,1530.0
+>=200,yes,car,1323.0
+no checking,none,real estate,3079.0
+0<=X<200,yes,no known property,2760.0
+0<=X<200,none,no known property,2862.0
+no checking,yes,no known property,2133.0
+no checking,yes,real estate,3485.0
+<0,yes,no known property,6229.0
+>=200,none,car,4473.0
+no checking,none,car,2012.0
+>=200,none,car,3749.0
+no checking,yes,car,2831.0
+0<=X<200,yes,car,2745.0
+<0,yes,life insurance,1262.0
+<0,yes,life insurance,6872.0
+0<=X<200,none,life insurance,918.0
+>=200,none,real estate,609.0
+no checking,none,real estate,601.0
+<0,yes,real estate,3234.0
+no checking,none,life insurance,6742.0
+<0,none,car,1603.0
+0<=X<200,none,car,2820.0
+0<=X<200,none,life insurance,1804.0
+0<=X<200,yes,real estate,1913.0
+<0,none,real estate,3676.0
+0<=X<200,none,car,1295.0
+<0,yes,life insurance,1200.0
+no checking,yes,real estate,1101.0
+no checking,none,car,4675.0
+0<=X<200,yes,no known property,2225.0
+<0,none,life insurance,6350.0
+no checking,none,life insurance,1413.0
+>=200,none,life insurance,1275.0
+0<=X<200,none,car,2896.0
+no checking,none,real estate,2241.0
+<0,none,car,2389.0
+no checking,none,life insurance,8133.0
+>=200,none,real estate,2864.0
+0<=X<200,none,car,6078.0
+0<=X<200,none,life insurance,368.0
+<0,yes,real estate,385.0
+0<=X<200,none,real estate,1048.0
+<0,yes,no known property,6419.0
+<0,none,real estate,1024.0
+<0,none,real estate,2303.0
+0<=X<200,none,real estate,458.0
+<0,none,life insurance,2246.0
+<0,yes,no known property,727.0
+no checking,none,real estate,1453.0
+no checking,none,car,2171.0
+no checking,none,real estate,2697.0
+0<=X<200,none,real estate,1007.0
+no checking,none,car,701.0
+<0,none,real estate,626.0
+<0,yes,no known property,1845.0
+0<=X<200,yes,no known property,14027.0
+no checking,none,car,5771.0
+no checking,yes,car,1525.0
+no checking,none,life insurance,1283.0
+no checking,none,real estate,518.0
+<0,none,no known property,7119.0
+<0,none,real estate,3021.0
+no checking,yes,car,2751.0
+no checking,none,real estate,660.0
+no checking,yes,life insurance,2463.0
+<0,yes,car,2249.0
+0<=X<200,yes,car,14421.0
+<0,yes,real estate,3966.0
+no checking,yes,car,3077.0
+0<=X<200,none,car,959.0
+>=200,none,real estate,745.0
+no checking,none,real estate,2684.0
+no checking,yes,life insurance,1393.0
+<0,yes,life insurance,1880.0
+0<=X<200,yes,life insurance,1199.0
+0<=X<200,none,no known property,3069.0
+no checking,yes,life insurance,3972.0
+<0,yes,no known property,14896.0
+<0,none,car,2302.0
+<0,none,real estate,731.0
+<0,none,life insurance,1433.0
+no checking,none,real estate,1338.0
+0<=X<200,none,life insurance,1295.0
+<0,yes,no known property,1872.0
+0<=X<200,yes,car,884.0
+no checking,none,car,2538.0
+no checking,none,car,3105.0
+no checking,none,car,7629.0
+<0,none,life insurance,2171.0
+0<=X<200,yes,car,2779.0
+<0,none,real estate,1138.0
+<0,none,real estate,1657.0
+0<=X<200,none,car,2767.0
+0<=X<200,none,real estate,1928.0
+0<=X<200,none,no known property,2384.0
+no checking,none,life insurance,1244.0
+no checking,none,life insurance,3331.0
+no checking,none,no known property,1597.0
+no checking,none,no known property,3863.0
+<0,none,real estate,709.0
+0<=X<200,none,car,802.0
+no checking,none,real estate,1736.0
+<0,yes,real estate,662.0
+no checking,none,real estate,783.0
+<0,yes,real estate,1835.0
+0<=X<200,none,life insurance,932.0
+<0,yes,real estate,1374.0
+<0,yes,no known property,1164.0
+<0,none,no known property,6143.0
+no checking,none,no known property,1204.0
+0<=X<200,none,life insurance,433.0
+no checking,none,real estate,1574.0
+0<=X<200,yes,car,5800.0
+<0,yes,life insurance,3161.0
+0<=X<200,yes,real estate,907.0
+no checking,none,real estate,3447.0
+<0,none,life insurance,2712.0
+<0,none,life insurance,1938.0
+no checking,yes,car,1851.0
+0<=X<200,yes,car,3512.0
+0<=X<200,none,life insurance,2427.0
+<0,none,no known property,1190.0
+no checking,none,real estate,1546.0
+0<=X<200,none,real estate,3017.0
+0<=X<200,none,real estate,276.0
+no checking,none,life insurance,926.0
+0<=X<200,yes,real estate,1391.0
+0<=X<200,yes,car,4057.0
+0<=X<200,none,life insurance,931.0
+no checking,none,real estate,2901.0
+<0,none,car,684.0
+<0,yes,no known property,7476.0
+no checking,none,car,2221.0
+<0,yes,life insurance,4843.0
+no checking,yes,real estate,2515.0
+<0,none,life insurance,3651.0
+>=200,none,real estate,1494.0
+0<=X<200,yes,no known property,5381.0
+>=200,none,car,3399.0
+<0,yes,car,1478.0
+0<=X<200,none,car,1449.0
+0<=X<200,none,life insurance,1743.0
+no checking,yes,car,3077.0
+no checking,none,life insurance,1766.0
+0<=X<200,yes,car,2030.0
+no checking,none,real estate,1154.0
+<0,none,life insurance,4272.0
+0<=X<200,none,car,5595.0
+<0,none,real estate,2122.0
+no checking,yes,life insurance,4139.0
+no checking,none,no known property,846.0
+no checking,none,car,1532.0
+0<=X<200,yes,car,3976.0
+0<=X<200,none,real estate,766.0
+0<=X<200,none,real estate,1246.0
+no checking,yes,car,1542.0
+no checking,yes,car,929.0
+no checking,none,car,3029.0
+no checking,none,life insurance,1533.0
+0<=X<200,yes,no known property,6681.0
+0<=X<200,none,car,888.0
+0<=X<200,yes,no known property,4297.0
+>=200,yes,real estate,1908.0
+no checking,yes,car,3235.0
+0<=X<200,none,life insurance,7408.0
+<0,none,car,6568.0
+<0,none,car,3632.0
+no checking,none,life insurance,9436.0

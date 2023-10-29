@@ -1,0 +1,9 @@
+base_table_path,base_table_name,base_table_label,target_column,dataset_type
+credit,table9.csv,credit,class,binary
+steel,table11.csv,steel,Class,binary
+jannis,table3.csv,jannis,class,binary
+miniboone,table1.csv,miniboone,signal,binary
+covertype,table5.csv,covertype,class,binary
+eyemove,table8.csv,eyemove,label,binary
+yprop,table1.csv,yprop,oz252,regression
+superconduct,table3.csv,superconduct,criticaltemp,regression

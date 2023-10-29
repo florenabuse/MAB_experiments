@@ -1,0 +1,14 @@
+pk_table,pk_column,fk_table,fk_column
+table1.csv,credit_amount,table0.csv,credit_amount
+table2.csv,credit_amount,table0.csv,credit_amount
+table3.csv,credit_amount,table1.csv,credit_amount
+table4.csv,credit_amount,table0.csv,credit_amount
+table5.csv,credit_amount,table0.csv,credit_amount
+table6.csv,credit_amount,table0.csv,credit_amount
+table7.csv,credit_amount,table4.csv,credit_amount
+table8.csv,credit_amount,table0.csv,credit_amount
+table9.csv,credit_amount,table5.csv,credit_amount
+table10.csv,credit_amount,table5.csv,credit_amount
+table11.csv,credit_amount,table0.csv,credit_amount
+table12.csv,credit_amount,table0.csv,credit_amount
+table13.csv,credit_amount,table7.csv,credit_amount

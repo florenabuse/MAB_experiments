@@ -1,0 +1,3 @@
+pk_table,pk_column,fk_table,fk_column
+table3.csv,V38,table2.csv,V38
+table2.csv,V38,table1.csv,V38
