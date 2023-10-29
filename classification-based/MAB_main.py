@@ -58,7 +58,7 @@ def main():
     a.to_csv('../results/results_mab_first_scenraio.csv', index=False)
 
     folder = 'credit'
-    base_name = 'table_0_0'
+    base_name = 'table9'
     index_col = 'Key_0_0'
     target_col = 'credit/table_0_0.oz252'
 
