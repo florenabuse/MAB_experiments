@@ -31,11 +31,11 @@ def main_MAB(tables, folder, base_name, index_col, target_col):
     # 'LR': [{'penalty': 'L1'}, {'penalty': 'L2'}]
     # tree-based: RF, GBM, XGB, XT
     models = {
-        {"LR": [
+        "LR": [
             {"penalty": "l1"},
             {"penalty": "l2"}
-        ]},
-        {"KNN": {}},
+        ],
+        "KNN": {},
     }
     for model in models:
         # model = {string: {}}
