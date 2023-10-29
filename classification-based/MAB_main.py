@@ -39,6 +39,7 @@ def main_MAB(tables, folder, base_name, index_col, target_col):
     }
     for model in models:
         # model = {string: {}}
+        model = {model}
 
         env = AutoFeature_env(folder, base_name, base_train_path, base_test_path, repo_train_path, repo_test_path, tables, connections, index_col, target_col, model_target, model, max_try_num, topl)
 
