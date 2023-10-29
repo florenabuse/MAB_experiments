@@ -40,6 +40,9 @@ def main_MAB(tables, folder, base_name, index_col, target_col):
     models = ["KNN", "LR"]
     for string in models:
         model = {string: {}}
+        if string == 'LR':
+            print('yes')
+            model = {'LR': [{'penalty': 'L1'}, {'penalty': 'L2'}]}
 
         env = AutoFeature_env(folder, base_name, base_train_path, base_test_path, repo_train_path, repo_test_path, tables, connections, index_col, target_col, model_target, model, max_try_num, topl)
 
