@@ -37,7 +37,7 @@ def main_MAB(tables, folder, base_name, index_col, target_col):
     #     ],
     #     "KNN": {},
     # }
-    models = ["KNN", "LR"]
+    models = ["LR", "KNN"]
     for string in models:
         model = {string: {}}
         if string == 'LR':
