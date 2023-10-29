@@ -85,7 +85,7 @@ def main():
         a_train.to_csv(f"../data2/{folder}/{entry}_train.csv", index=False)
         a_test.to_csv(f"../data2/{folder}/{entry}_test.csv", index=False)
 
-    tables = ['table_1_1', 'table_1_2', 'table_1_3']
+    tables = ['table1', 'table2', 'table3']
 
 
     main_MAB(tables, folder, base_name, index_col, target_col)
