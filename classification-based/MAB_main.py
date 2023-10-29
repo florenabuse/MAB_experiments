@@ -30,16 +30,16 @@ def main_MAB(tables, folder, base_name, index_col, target_col):
     #  {"RF": {}, "GBM": {}, "XGB": {}, "XT": {}, 'KNN': {},
     # 'LR': [{'penalty': 'L1'}, {'penalty': 'L2'}]
     # tree-based: RF, GBM, XGB, XT
-    models = {
-        "LR": [
-            {"penalty": "l1"},
-            {"penalty": "l2"}
-        ],
-        "KNN": {},
-    }
-    for model in models:
-        # model = {string: {}}
-        model = {model}
+    # models = {
+    #     "LR": [
+    #         {"penalty": "l1"},
+    #         {"penalty": "l2"}
+    #     ],
+    #     "KNN": {},
+    # }
+    models = ["KNN", "LR"]
+    for string in models:
+        model = {string: {}}
 
         env = AutoFeature_env(folder, base_name, base_train_path, base_test_path, repo_train_path, repo_test_path, tables, connections, index_col, target_col, model_target, model, max_try_num, topl)
 
