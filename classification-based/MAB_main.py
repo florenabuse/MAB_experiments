@@ -128,20 +128,20 @@ if __name__ == "__main__":
 
     # main()
 
-    # credit_parameters = ['credit', 'table_0_0', 'Key_0_0', 'credit/table_0_0.class',
-    #                      ['table_1_1', 'table_1_2']]
-    eyemove_parameters = ['eyemove', 'table_0_0', 'Key_0_0', 'credit/table_0_0.label',
+    credit_parameters = ['credit', 'table_0_0', 'Key_0_0', 'credit/table_0_0.class',
+                         ['table_1_1', 'table_1_2']]
+    eyemove_parameters = ['eyemove', 'table_0_0', 'Key_0_0', 'eyemove/table_0_0.label',
                           ['table_1_1', 'table_1_2', 'table_1_3']]
-    covertype_parameters = ['covertype', 'table_0_0', 'Key_0_0', 'credit/table_0_0.class',
+    covertype_parameters = ['covertype', 'table_0_0', 'Key_0_0', 'covertype/table_0_0.class',
                             ['table_1_1', 'table_1_2', 'table_1_3']]
-    jannis_parameters = ['jannis', 'table_0_0', 'Key_0_0', 'credit/table_0_0.class',
+    jannis_parameters = ['jannis', 'table_0_0', 'Key_0_0', 'jannis/table_0_0.class',
                          ['table_1_1', 'table_1_2', 'table_1_3']]
-    miniboone_parameters = ['miniboone', 'table_0_0', 'Key_0_0', 'credit/table_0_0.signal',
+    miniboone_parameters = ['miniboone', 'table_0_0', 'Key_0_0', 'miniboone/table_0_0.signal',
                             ['table_1_1', 'table_1_2', 'table_1_3']]
-    steel_parameters = ['steel', 'table_0_0', 'Key_0_0', 'credit/table_0_0.Class',
+    steel_parameters = ['steel', 'table_0_0', 'Key_0_0', 'steel/table_0_0.Class',
                         ['table_1_1', 'table_1_2', 'table_1_3']]
     # school_parameters = ['school', 'TODO', 'Key_0_0', 'credit/TODO.class']
-    bioresponse_parameters = ['bioresponse', 'table_0_0', 'Key_0_0', 'credit/table_0_0.target',
+    bioresponse_parameters = ['bioresponse', 'table_0_0', 'Key_0_0', 'bioresponse/table_0_0.target',
                               ['table_1_1', 'table_1_2', 'table_1_3']]
 
     datasets = [eyemove_parameters, covertype_parameters, jannis_parameters, miniboone_parameters,
