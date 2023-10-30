@@ -49,7 +49,7 @@ def main_MAB(tables, folder, base_name, index_col, target_col):
         # Train the workload
         autofeature.augment()
 
-def main(folder, base_name, index_col, target_col, dataset_table):
+def main(folder, base_name, index_col, target_col, dataset_tables):
 
     a = pd.read_csv('../results/results_mab_first_scenraio.csv')
     a = a[['algorithm','data_path','approach','data_label','join_time','total_time','feature_selection_time','depth','accuracy','train_time','feature_importance','join_path_features','cutoff_threshold','redundancy_threshold','rank']]
@@ -62,7 +62,8 @@ def main(folder, base_name, index_col, target_col, dataset_table):
 
     # tables = ['table_0_0', 'table_1_1', 'table_1_2', 'table_1_3']
     tables = ['table_0_0']
-    tables.append(dataset_table)
+    for table in dataset_tables:
+        tables.append(table)
     print(tables)
 
     for entry in tables:
@@ -150,4 +151,4 @@ if __name__ == "__main__":
 
     for dataset in datasets:
         main(folder=dataset[0], base_name=dataset[1], index_col=dataset[2], target_col=dataset[3],
-             dataset_table=dataset[4])
+             dataset_tables=dataset[4])
