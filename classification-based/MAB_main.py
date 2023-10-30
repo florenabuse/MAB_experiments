@@ -88,7 +88,7 @@ def main(folder, base_name, index_col, target_col, dataset_table):
     # tables = ['table_1_1', 'table_1_2', 'table_1_3']
     tables = dataset_table
 
-    main_MAB(tables, folder, base_name, index_col, target_col)
+    # main_MAB(tables, folder, base_name, index_col, target_col)
 
     # tables = ['temp', 'co_daily_summary', 'hap_daily_summary', 'lead_daily_summary', 'no2_daily_summary', 'nonoxnoy_daily_summary',
     #           'o3_daily_summary', 'pm10_daily_summary', 'pm25_frm_daily_summary', 'pm25_nonfrm_daily_summary',
@@ -144,7 +144,7 @@ if __name__ == "__main__":
     bioresponse_parameters = ['bioresponse', 'table_0_0', 'Key_0_0', 'credit/table_0_0.target',
                               ['table_1_1', 'table_1_2', 'table_1_3']]
 
-    datasets = [credit_parameters, eyemove_parameters, covertype_parameters, jannis_parameters, miniboone_parameters,
+    datasets = [eyemove_parameters, covertype_parameters, jannis_parameters, miniboone_parameters,
                  steel_parameters, bioresponse_parameters]
 
     for dataset in datasets:
