@@ -23,7 +23,7 @@ def main_MAB(tables, folder, base_name, index_col, target_col):
 
     max_try_num = 30
 
-    topl = 3
+    topl = 20
 
     random_state = 42
 
