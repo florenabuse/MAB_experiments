@@ -296,8 +296,8 @@ class AutoFeature_env(object):
     def model_training(self, X_train, Y_train):
         train = X_train.copy()
         train[self.target_col] = Y_train.copy()
-        predictor = TabularPredictor(label=self.target_col, verbosity=0).fit(train_data=train,
-                                                                hyperparameters=self.model)
+        predictor = TabularPredictor(label=self.target_col, verbosity=0, path="AutogluonModels").fit(train_data=train,
+                                     hyperparameters=self.model)
         return predictor
 
     def model_test_rmse(self, X_test, Y_test):
