@@ -60,9 +60,9 @@ def main(folder, base_name, index_col, target_col, dataset_table):
     index_col = 'Key_0_0'
     target_col = 'covertype/table_0_0.class'
 
-    # tables = ['table_0_0', 'table_1_1', 'table_1_2', 'table_1_3']
-    dataset_table.append('table_0_0')
-    tables = dataset_table
+    tables = ['table_0_0', 'table_1_1', 'table_1_2', 'table_1_3']
+    # dataset_table.append('table_0_0')
+    # tables = dataset_table
 
     for entry in tables:
         df = pd.read_csv(f"../data2/{folder}/{entry}.csv")
@@ -85,8 +85,8 @@ def main(folder, base_name, index_col, target_col, dataset_table):
         a_train.to_csv(f"../data2/{folder}/{entry}_train.csv", index=False)
         a_test.to_csv(f"../data2/{folder}/{entry}_test.csv", index=False)
 
-    # tables = ['table_1_1', 'table_1_2', 'table_1_3']
-    tables = dataset_table
+    tables = ['table_1_1', 'table_1_2', 'table_1_3']
+    # tables = dataset_table
 
     main_MAB(tables, folder, base_name, index_col, target_col)
 
