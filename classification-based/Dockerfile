@@ -1,16 +1,9 @@
-# syntax=docker/dockerfile:1
-
-FROM python:3.11
+FROM pytorch/pytorch
 
 WORKDIR ./
 
-# RUN pip install -U pip
-# RUN pip install --upgrade setuptools
-# RUN apt-get install sudo
-# RUN sudo apt-get install python3-setuptools
-
 COPY ./classification-based/requirements.txt ./
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip3 install -r requirements.txt
 
 COPY .. .
 
