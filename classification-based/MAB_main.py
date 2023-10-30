@@ -61,8 +61,8 @@ def main(folder, base_name, index_col, target_col, dataset_table):
     # target_col = 'covertype/table_0_0.class'
 
     # tables = ['table_0_0', 'table_1_1', 'table_1_2', 'table_1_3']
-    tables = dataset_table
-    tables.append('table_0_0')
+    tables = ['table_0_0']
+    tables.append(dataset_table)
     print(tables)
 
     for entry in tables:
