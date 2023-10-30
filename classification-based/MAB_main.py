@@ -60,10 +60,10 @@ def main():
     a = a[['algorithm','data_path','approach','data_label','join_time','total_time','feature_selection_time','depth','accuracy','train_time','feature_importance','join_path_features','cutoff_threshold','redundancy_threshold','rank']]
     a.to_csv('../results/results_mab_first_scenraio.csv', index=False)
 
-    folder = 'covertype'
+    folder = 'credit' # change here
     base_name = 'table_0_0'
     index_col = 'Key_0_0'
-    target_col = 'covertype/table_0_0.class'
+    target_col = 'credit/table_0_0.class' # change here
 
     tables = ['table_0_0', 'table_1_1', 'table_1_2', 'table_1_3']
 

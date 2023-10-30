@@ -7,6 +7,3 @@ covertype,table_0_0.csv,covertype,class,binary
 eyemove,table_0_0.csv,eyemove,label,binary
 bioresponse,table_0_0.csv,bioresponse,target,binary
 school,base.csv,school,class,binary
-air,temp.csv,air,Temperature,regression
-yprop,table_0_0.csv,yprop,oz252,regression
-superconduct,table_0_0.csv,superconduct,criticaltemp,regression
