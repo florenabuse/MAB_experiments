@@ -60,6 +60,8 @@ class AutoFeature_env(object):
         self.model = model
         self.init_env()
 
+        self.predictor = None
+
 
     def init_env(self):
         # Init training set
@@ -298,6 +300,7 @@ class AutoFeature_env(object):
         train[self.target_col] = Y_train.copy()
         predictor = TabularPredictor(label=self.target_col, verbosity=0, path="AutogluonModels").fit(train_data=train,
                                      hyperparameters=self.model)
+        self.predictor = predictor
         return predictor
 
     def model_test_rmse(self, X_test, Y_test):

@@ -115,6 +115,9 @@ class AutoFeature_agent(object):
                 elif self.env.model == {'KNN': {}}:
                     predictor_name = 'KNeighbors'
 
+                print('TEST')
+                print(self.env.predictor.get_model_names())
+
                 feature_importance = dict(zip(list(ft_imp.index), ft_imp["importance"]))
                 with open('../results/results_mab_first_scenraio.csv', 'a') as f:
                     f.write(f'{predictor_name},{self.env.agg},MAB,{self.env.folder},,{round(time_end - time_start, 2)},{round(time_end - time_start, 2)},,{self.env.cur_score},0,"{feature_importance}","{list(self.env.current_training_set.columns)}",,,\n')
