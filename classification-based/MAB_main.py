@@ -55,10 +55,10 @@ def main(folder, base_name, index_col, target_col, dataset_table):
     a = a[['algorithm','data_path','approach','data_label','join_time','total_time','feature_selection_time','depth','accuracy','train_time','feature_importance','join_path_features','cutoff_threshold','redundancy_threshold','rank']]
     a.to_csv('../results/results_mab_first_scenraio.csv', index=False)
 
-    # folder = 'credit'
-    # base_name = 'table_0_0'
-    # index_col = 'Key_0_0'
-    # target_col = 'credit/table_0_0.class'
+    folder = 'credit'
+    base_name = 'table_0_0'
+    index_col = 'Key_0_0'
+    target_col = 'credit/table_0_0.class'
 
     # tables = ['table_0_0', 'table_1_1', 'table_1_2', 'table_1_3']
     dataset_table.append('table_0_0')
@@ -144,7 +144,7 @@ if __name__ == "__main__":
     bioresponse_parameters = ['bioresponse', 'table_0_0', 'Key_0_0', 'bioresponse/table_0_0.target',
                               ['table_1_1', 'table_1_2', 'table_1_3']]
 
-    datasets = [covertype_parameters, jannis_parameters, miniboone_parameters,
+    datasets = [credit_parameters, eyemove_parameters, covertype_parameters, jannis_parameters, miniboone_parameters,
                  steel_parameters, bioresponse_parameters]
 
     for dataset in datasets:
