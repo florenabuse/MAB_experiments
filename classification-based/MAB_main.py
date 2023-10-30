@@ -88,7 +88,7 @@ def main(folder, base_name, index_col, target_col, dataset_table):
     # tables = ['table_1_1', 'table_1_2', 'table_1_3']
     tables = dataset_table
 
-    # main_MAB(tables, folder, base_name, index_col, target_col)
+    main_MAB(tables, folder, base_name, index_col, target_col)
 
     # tables = ['temp', 'co_daily_summary', 'hap_daily_summary', 'lead_daily_summary', 'no2_daily_summary', 'nonoxnoy_daily_summary',
     #           'o3_daily_summary', 'pm10_daily_summary', 'pm25_frm_daily_summary', 'pm25_nonfrm_daily_summary',
@@ -128,8 +128,8 @@ if __name__ == "__main__":
 
     # main()
 
-    credit_parameters = ['credit', 'table_0_0', 'Key_0_0', 'credit/table_0_0.class',
-                         ['table_1_1', 'table_1_2']]
+    # credit_parameters = ['credit', 'table_0_0', 'Key_0_0', 'credit/table_0_0.class',
+    #                      ['table_1_1', 'table_1_2']]
     eyemove_parameters = ['eyemove', 'table_0_0', 'Key_0_0', 'credit/table_0_0.label',
                           ['table_1_1', 'table_1_2', 'table_1_3']]
     covertype_parameters = ['covertype', 'table_0_0', 'Key_0_0', 'credit/table_0_0.class',
