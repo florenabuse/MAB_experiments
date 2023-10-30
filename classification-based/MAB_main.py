@@ -27,23 +27,16 @@ def main_MAB(tables, folder, base_name, index_col, target_col):
 
     random_state = 42
 
-    #  {"RF": {}, "GBM": {}, "XGB": {}, "XT": {}, 'KNN': {},
-    # 'LR': [{'penalty': 'L1'}, {'penalty': 'L2'}]
-    # tree-based: RF, GBM, XGB, XT
-    # models = {
-    #     "LR": [
-    #         {"penalty": "l1"},
-    #         {"penalty": "l2"}
-    #     ],
-    #     "KNN": {},
-    # }
+    # All models: {"RF": {}, "GBM": {}, "XGB": {}, "XT": {}, 'KNN': {},
+    # Exclude tree-based models: RF, GBM, XGB, XT
     models = ["LR-1", "LR-2", "KNN"]
+    model_map = {
+        "LR-1": {'LR': {'penalty': 'L1'}},
+        "LR-2": {'LR': {'penalty': 'L2'}},
+        "KNN": {'KNN': {}}
+    }
     for string in models:
-        model = {string: {}}
-        if string == 'LR-1':
-            model = {'LR': {'penalty': 'L1'}}
-        if string == 'LR-2':
-            model = {'LR': {'penalty': 'L2'}}
+        model = model_map[string]
 
         env = AutoFeature_env(folder, base_name, base_train_path, base_test_path, repo_train_path, repo_test_path, tables, connections, index_col, target_col, model_target, model, max_try_num, topl)
 
@@ -62,10 +55,10 @@ def main():
     a = a[['algorithm','data_path','approach','data_label','join_time','total_time','feature_selection_time','depth','accuracy','train_time','feature_importance','join_path_features','cutoff_threshold','redundancy_threshold','rank']]
     a.to_csv('../results/results_mab_first_scenraio.csv', index=False)
 
-    folder = 'credit' # change here
+    folder = 'credit'
     base_name = 'table_0_0'
     index_col = 'Key_0_0'
-    target_col = 'credit/table_0_0.class' # change here
+    target_col = 'credit/table_0_0.class'
 
     tables = ['table_0_0', 'table_1_1', 'table_1_2', 'table_1_3']
 
@@ -92,7 +85,7 @@ def main():
 
     tables = ['table_1_1', 'table_1_2', 'table_1_3']
 
-    main_MAB(tables, folder, base_name, index_col, target_col)
+    # main_MAB(tables, folder, base_name, index_col, target_col)
 
     # tables = ['temp', 'co_daily_summary', 'hap_daily_summary', 'lead_daily_summary', 'no2_daily_summary', 'nonoxnoy_daily_summary',
     #           'o3_daily_summary', 'pm10_daily_summary', 'pm25_frm_daily_summary', 'pm25_nonfrm_daily_summary',
@@ -129,5 +122,14 @@ if __name__ == "__main__":
     #
     # print(conn[['fk_table', 'to_column', 'pk_table', 'from_column']])
     # conn[['fk_table', 'to_column', 'pk_table', 'from_column']].to_csv('../data2/connections.csv', index=False)
+
+    credit_parameters = ['credit', 'table_0_0', 'Key_0_0', 'credit/table_0_0.class']
+    eyemove_parameters = ['eyemove', 'table_0_0', 'Key_0_0', 'credit/table_0_0.label']
+    covertype_parameters = ['covertype', 'table_0_0', 'Key_0_0', 'credit/table_0_0.class']
+    jannis_parameters = ['jannis', 'table_0_0', 'Key_0_0', 'credit/table_0_0.class']
+    miniboone_parameters = ['miniboone', 'table_0_0', 'Key_0_0', 'credit/table_0_0.signal']
+    steel_parameters = ['steel', 'table_0_0', 'Key_0_0', 'credit/table_0_0.Class']
+    # school_parameters = ['school', 'TODO', 'Key_0_0', 'credit/TODO.class']
+    bioresponse_parameters = ['bioresponse', 'table_0_0', 'Key_0_0', 'credit/table_0_0.target']
 
     main()
