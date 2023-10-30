@@ -107,8 +107,6 @@ class AutoFeature_agent(object):
                 print("Time：" + str(time_end - time_start))
 
                 predictor = self.env.current_model
-                print('TEST')
-                print(self.env.predictor.get_model_names()[0])
                 feature_importance = dict(zip(list(ft_imp.index), ft_imp["importance"]))
                 with open('../results/results_mab_first_scenraio.csv', 'a') as f:
                     f.write(f'{self.env.predictor.get_model_names()[0]},{self.env.agg},MAB,{self.env.folder},,{round(time_end - time_start, 2)},{round(time_end - time_start, 2)},,{self.env.cur_score},0,"{feature_importance}","{list(self.env.current_training_set.columns)}",,,\n')
