@@ -55,13 +55,15 @@ def main(folder, base_name, index_col, target_col, dataset_table):
     a = a[['algorithm','data_path','approach','data_label','join_time','total_time','feature_selection_time','depth','accuracy','train_time','feature_importance','join_path_features','cutoff_threshold','redundancy_threshold','rank']]
     a.to_csv('../results/results_mab_first_scenraio.csv', index=False)
 
-    folder = 'covertype'
-    base_name = 'table_0_0'
-    index_col = 'Key_0_0'
-    target_col = 'covertype/table_0_0.class'
+    # folder = 'covertype'
+    # base_name = 'table_0_0'
+    # index_col = 'Key_0_0'
+    # target_col = 'covertype/table_0_0.class'
 
+    # tables = ['table_0_0', 'table_1_1', 'table_1_2', 'table_1_3']
     tables = dataset_table
     tables.append('table_0_0')
+    print(tables)
 
     for entry in tables:
         df = pd.read_csv(f"../data2/{folder}/{entry}.csv")
@@ -139,12 +141,12 @@ if __name__ == "__main__":
                             ['table_1_1', 'table_1_2', 'table_1_3']]
     steel_parameters = ['steel', 'table_0_0', 'Key_0_0', 'steel/table_0_0.Class',
                         ['table_1_1', 'table_1_2', 'table_1_3']]
-    # school_parameters = ['school', 'TODO', 'Key_0_0', 'credit/TODO.class']
+    # school_parameters = ['school', 'TODO', 'Key_0_0', 'credit/TODO.class', []]
     bioresponse_parameters = ['bioresponse', 'table_0_0', 'Key_0_0', 'bioresponse/table_0_0.target',
                               ['table_1_1', 'table_1_2', 'table_1_3']]
 
     datasets = [credit_parameters, eyemove_parameters, covertype_parameters, jannis_parameters, miniboone_parameters,
-                 steel_parameters, bioresponse_parameters]
+                steel_parameters, bioresponse_parameters]
 
     for dataset in datasets:
         main(folder=dataset[0], base_name=dataset[1], index_col=dataset[2], target_col=dataset[3],
