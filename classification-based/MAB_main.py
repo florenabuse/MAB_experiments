@@ -152,11 +152,11 @@ if __name__ == "__main__":
     bioresponse_parameters = ['bioresponse', 'table_0_0', 'Key_0_0', 'bioresponse/table_0_0.target',
                               ['table_1_1', 'table_1_2', 'table_1_3']]
 
-    datasets = [steel_parameters, school_parameters]
+    datasets = [school_parameters]
 
     # TODO: eyemove_parameters, covertype_parameters, miniboone_parameters
 
-    # DONE: credit_parameters, bioresponse_parameters, jannis_parameters
+    # DONE: credit_parameters, bioresponse_parameters, jannis_parameters, steel_parameters
     # ran with max_try_num = 30 and topl = 3
 
     for dataset in datasets:
