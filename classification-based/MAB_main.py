@@ -45,6 +45,7 @@ def main_MAB(tables, folder, base_name, index_col, target_col):
         autofeature = AutoFeature_agent(env, res_csv, random_state)
 
         print("Agent Ready!")
+        print('TOPL value', topl)
 
         # Train the workload
         autofeature.augment()
