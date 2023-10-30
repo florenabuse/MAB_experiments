@@ -64,7 +64,6 @@ def main(folder, base_name, index_col, target_col, dataset_tables):
     tables = ['table_0_0']
     for table in dataset_tables:
         tables.append(table)
-    print(tables)
 
     for entry in tables:
         df = pd.read_csv(f"../data2/{folder}/{entry}.csv")
