@@ -9,7 +9,7 @@ WORKDIR ./
 # RUN apt-get install sudo
 # RUN sudo apt-get install python3-setuptools
 
-COPY requirements.txt ./
+COPY ./classification-based/requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY .. .
