@@ -159,5 +159,10 @@ if __name__ == "__main__":
     # school_parameters, bioresponse_parameters
 
     for dataset in datasets:
+        print(dataset[0])
+        print(dataset[1])
+        print(dataset[2])
+        print(dataset[3])
+        print(dataset[4])
         main(folder=dataset[0], base_name=dataset[1], index_col=dataset[2], target_col=dataset[3],
              dataset_tables=dataset[4])
