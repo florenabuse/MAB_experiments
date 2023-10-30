@@ -88,7 +88,7 @@ def main(folder, base_name, index_col, target_col, dataset_tables):
         a_test.to_csv(f"../data2/{folder}/{entry}_test.csv", index=False)
 
     # tables = ['table_1_1', 'table_1_2', 'table_1_3']
-    tables = dataset_table
+    tables = dataset_tables
 
     main_MAB(tables, folder, base_name, index_col, target_col)
 
