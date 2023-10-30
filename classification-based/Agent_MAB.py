@@ -36,6 +36,9 @@ class AutoFeature_agent(object):
 
         i = 0
         while True:
+            if i == len(sort_ucb_tmp_list):
+                return -1
+
             # Need to check this here
             action = sort_ucb_tmp_list[i][0]
             isGood = False
