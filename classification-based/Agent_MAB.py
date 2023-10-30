@@ -109,5 +109,5 @@ class AutoFeature_agent(object):
                 predictor = self.env.current_model
                 feature_importance = dict(zip(list(ft_imp.index), ft_imp["importance"]))
                 with open('../results/output.csv', 'a') as f:
-                    f.write(f',{self.env.agg},MAB,{self.env.folder},,{round(time_end - time_start, 2)},{round(time_end - time_start, 2)},,{self.env.cur_score},0,"{feature_importance}","{list(self.env.current_training_set.columns)}",,,\n')
+                    f.write(f'{predictor},{self.env.agg},MAB,{self.env.folder},,{round(time_end - time_start, 2)},{round(time_end - time_start, 2)},,{self.env.cur_score},0,"{feature_importance}","{list(self.env.current_training_set.columns)}",,,\n')
                 break
