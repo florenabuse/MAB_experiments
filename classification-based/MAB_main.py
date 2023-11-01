@@ -155,7 +155,7 @@ if __name__ == "__main__":
     bioresponse_parameters = ['bioresponse', 'table_0_0', 'Key_0_0', 'bioresponse/table_0_0.target',
                               ['table_1_1', 'table_1_2', 'table_1_3']]
 
-    datasets = [eyemove_parameters]
+    datasets = [eyemove_parameters, covertype_parameters]
 
     # TODO: covertype_parameters, miniboone_parameters
 
