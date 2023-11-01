@@ -86,6 +86,8 @@ def main(folder, base_name, index_col, target_col, dataset_tables):
         df = df[re]
         df.columns = me
 
+        # Add sampling only if necessary (covertype, eyemove, miniboone)
+        df = df.sample(frac=0.1, random_state=42)
         a_train, a_test = train_test_split(df, test_size=0.2, random_state=42)
         a_train.to_csv(f"../data2/{folder}/{entry}_train.csv", index=False)
         a_test.to_csv(f"../data2/{folder}/{entry}_test.csv", index=False)
