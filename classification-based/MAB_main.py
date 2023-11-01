@@ -29,7 +29,8 @@ def main_MAB(tables, folder, base_name, index_col, target_col):
 
     # All models: {"RF": {}, "GBM": {}, "XGB": {}, "XT": {}, 'KNN': {},
     # Exclude tree-based models: RF, GBM, XGB, XT
-    models = ["LR-1", "LR-2", "KNN"]
+    # models = ["LR-1", "LR-2", "KNN"]
+    models = ["LR-1", "KNN"]
     model_map = {
         "LR-1": {'LR': {'penalty': 'L1'}},
         # "LR-2": {'LR': {'penalty': 'L2'}},
