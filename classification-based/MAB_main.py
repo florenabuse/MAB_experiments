@@ -158,11 +158,10 @@ if __name__ == "__main__":
     datasets = [credit_parameters, eyemove_parameters, covertype_parameters, jannis_parameters,
                 miniboone_parameters, steel_parameters, bioresponse_parameters, school_parameters]
 
-    # TODO: -
+    # TODO: credit_parameters, eyemove_parameters, covertype_parameters, jannis_parameters,
+    # miniboone_parameters, steel_parameters, bioresponse_parameters, school_parameters
 
-    # DONE: credit_parameters, bioresponse_parameters, jannis_parameters, steel_parameters, school_parameters
-    # eyemove_parameters, covertype_parameters
-    # ran with max_try_num = 30 and topl = 3
+    # DONE:
 
     for dataset in datasets:
         main(folder=dataset[0], base_name=dataset[1], index_col=dataset[2], target_col=dataset[3],
