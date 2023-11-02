@@ -136,28 +136,57 @@ if __name__ == "__main__":
 
     # main()
 
-    credit_parameters = ['credit', 'table_0_0', 'Key_0_0', 'credit/table_0_0.class',
-                         ['table_1_1', 'table_1_2']]
-    eyemove_parameters = ['eyemove', 'table_0_0', 'Key_0_0', 'eyemove/table_0_0.label',
-                          ['table_1_1', 'table_1_2', 'table_1_3']]
-    covertype_parameters = ['covertype', 'table_0_0', 'Key_0_0', 'covertype/table_0_0.class',
-                            ['table_1_1', 'table_1_2', 'table_1_3']]
-    jannis_parameters = ['jannis', 'table_0_0', 'Key_0_0', 'jannis/table_0_0.class',
-                         ['table_1_1', 'table_1_2', 'table_1_3']]
-    miniboone_parameters = ['miniboone', 'table_0_0', 'Key_0_0', 'miniboone/table_0_0.signal',
-                            ['table_1_1', 'table_1_2', 'table_1_3']]
-    steel_parameters = ['steel', 'table_0_0', 'Key_0_0', 'steel/table_0_0.Class',
-                        ['table_1_1', 'table_1_2', 'table_1_3']]
-    bioresponse_parameters = ['bioresponse', 'table_0_0', 'Key_0_0', 'bioresponse/table_0_0.target',
-                              ['table_1_1', 'table_1_2', 'table_1_3']]
-    school_parameters = ['school', 'base', 'DBN', 'school/base.class',
-                         ['ap', 'crime', 'disc', 'esl', 'gender', 'math',
-                          'oss', 'pe', 'qr', 's2tr', 'sat', 'transfer', 'yabc', '2010_Gen_Ed_Survey_Data',
-                          'Schools_Progress_Report_2012-2013', '2013_NYC_School_Survey']]
+    # credit_parameters = ['credit', 'table_0_0', 'Key_0_0', 'credit/table_0_0.class',
+    #                      ['table_1_1', 'table_1_2']]
+    # eyemove_parameters = ['eyemove', 'table_0_0', 'Key_0_0', 'eyemove/table_0_0.label',
+    #                       ['table_1_1', 'table_1_2', 'table_1_3']]
+    # covertype_parameters = ['covertype', 'table_0_0', 'Key_0_0', 'covertype/table_0_0.class',
+    #                         ['table_1_1', 'table_1_2', 'table_1_3']]
+    # jannis_parameters = ['jannis', 'table_0_0', 'Key_0_0', 'jannis/table_0_0.class',
+    #                      ['table_1_1', 'table_1_2', 'table_1_3']]
+    # miniboone_parameters = ['miniboone', 'table_0_0', 'Key_0_0', 'miniboone/table_0_0.signal',
+    #                         ['table_1_1', 'table_1_2', 'table_1_3']]
+    # steel_parameters = ['steel', 'table_0_0', 'Key_0_0', 'steel/table_0_0.Class',
+    #                     ['table_1_1', 'table_1_2', 'table_1_3']]
+    # bioresponse_parameters = ['bioresponse', 'table_0_0', 'Key_0_0', 'bioresponse/table_0_0.target',
+    #                           ['table_1_1', 'table_1_2', 'table_1_3']]
+    # school_parameters = ['school', 'base', 'DBN', 'school/base.class',
+    #                      ['ap', 'crime', 'disc', 'esl', 'gender', 'math',
+    #                       'oss', 'pe', 'qr', 's2tr', 'sat', 'transfer', 'yabc', '2010_Gen_Ed_Survey_Data',
+    #                       'Schools_Progress_Report_2012-2013', '2013_NYC_School_Survey']]
+    #
+    # datasets = [credit_parameters, eyemove_parameters, covertype_parameters, jannis_parameters,
+    #             miniboone_parameters, steel_parameters, bioresponse_parameters, school_parameters]
+    #
+    # for dataset in datasets:
+    #     main(folder=dataset[0], base_name=dataset[1], index_col=dataset[2], target_col=dataset[3],
+    #          dataset_tables=dataset[4])
 
-    datasets = [credit_parameters, eyemove_parameters, covertype_parameters, jannis_parameters,
-                miniboone_parameters, steel_parameters, bioresponse_parameters, school_parameters]
+    # main()
 
-    for dataset in datasets:
-        main(folder=dataset[0], base_name=dataset[1], index_col=dataset[2], target_col=dataset[3],
-             dataset_tables=dataset[4])
+    file_path = f"../data2/all_connections_basic2.csv"
+    df = pd.read_csv(file_path)
+
+    # Keep only the correct datasets
+    dataset_list = ['credit/', 'eyemove/', 'covertype/', 'jannis/', 'miniboone/', 'steel/', 'bioresponse/', 'school/']
+    df = df[df['from_path'].isin(dataset_list)]
+    df = df[df['to_path'].isin(dataset_list)]
+
+    key_list = ['Key_0_0', 'DBN']
+    df = df[df['from_column'].isin(key_list)]
+    df = df[df['to_column'].isin(key_list)]
+
+    # Merge columns - from table
+    df['from_path'] = df['from_path'].str.rstrip('/')
+    df['fk_table'] = df['from_path'] + '_' + df['from_table']
+    df['fk_column'] = df['from_column']
+    df = df.drop(columns=['from_path', 'from_table', 'from_column'])
+
+    # Merge columns - to table
+    df['to_path'] = df['to_path'].str.rstrip('/')
+    df['pk_table'] = df['to_path'] + '_' + df['to_label']
+    df['pk_column'] = df['to_column']
+    df = df.drop(columns=['to_path', 'to_label', 'to_column'])
+
+    new_file_path = f"../data2/connections2.csv"
+    df.to_csv(new_file_path, index=False)
