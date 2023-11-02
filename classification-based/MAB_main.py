@@ -148,14 +148,15 @@ if __name__ == "__main__":
                             ['table_1_1', 'table_1_2', 'table_1_3']]
     steel_parameters = ['steel', 'table_0_0', 'Key_0_0', 'steel/table_0_0.Class',
                         ['table_1_1', 'table_1_2', 'table_1_3']]
+    bioresponse_parameters = ['bioresponse', 'table_0_0', 'Key_0_0', 'bioresponse/table_0_0.target',
+                              ['table_1_1', 'table_1_2', 'table_1_3']]
     school_parameters = ['school', 'base', 'DBN', 'school/base.class',
                          ['ap', 'crime', 'disc', 'esl', 'gender', 'math',
                           'oss', 'pe', 'qr', 's2tr', 'sat', 'transfer', 'yabc', '2010_Gen_Ed_Survey_Data',
                           'Schools_Progress_Report_2012-2013', '2013_NYC_School_Survey']]
-    bioresponse_parameters = ['bioresponse', 'table_0_0', 'Key_0_0', 'bioresponse/table_0_0.target',
-                              ['table_1_1', 'table_1_2', 'table_1_3']]
 
-    datasets = [miniboone_parameters]
+    datasets = [credit_parameters, eyemove_parameters, covertype_parameters, jannis_parameters,
+                miniboone_parameters, steel_parameters, bioresponse_parameters, school_parameters]
 
     # TODO: -
 
