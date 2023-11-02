@@ -158,11 +158,6 @@ if __name__ == "__main__":
     datasets = [credit_parameters, eyemove_parameters, covertype_parameters, jannis_parameters,
                 miniboone_parameters, steel_parameters, bioresponse_parameters, school_parameters]
 
-    # TODO: credit_parameters, eyemove_parameters, covertype_parameters, jannis_parameters,
-    # miniboone_parameters, steel_parameters, bioresponse_parameters, school_parameters
-
-    # DONE:
-
     for dataset in datasets:
         main(folder=dataset[0], base_name=dataset[1], index_col=dataset[2], target_col=dataset[3],
              dataset_tables=dataset[4])
