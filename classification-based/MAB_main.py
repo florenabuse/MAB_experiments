@@ -1,12 +1,13 @@
+import pandas as pd
+
 from Environment_MAB import AutoFeature_env
 from Agent_MAB import AutoFeature_agent
 from warnings import filterwarnings
-
 from sklearn.model_selection import train_test_split
-import pandas as pd
 
 filterwarnings("ignore", category=UserWarning)
 filterwarnings("ignore", category=FutureWarning)
+
 
 def main_MAB(tables, folder, base_name, index_col, target_col):
 
@@ -49,6 +50,7 @@ def main_MAB(tables, folder, base_name, index_col, target_col):
 
         # Train the workload
         autofeature.augment()
+
 
 def main(folder, base_name, index_col, target_col, dataset_tables):
 
@@ -114,6 +116,36 @@ def main(folder, base_name, index_col, target_col, dataset_tables):
     # all_con.columns = ['pk_table', 'pk_column', 'fk_table', 'fk_column']
     # all_con.to_csv('../data/connections.csv', index=False)
 
+
+def get_connections():
+    file_path = f"../data2/all_connections_basic2.csv"
+    df = pd.read_csv(file_path)
+
+    # Keep only the correct datasets
+    dataset_list = ['credit/', 'eyemove/', 'covertype/', 'jannis/', 'miniboone/', 'steel/', 'bioresponse/', 'school/']
+    df = df[df['from_path'].isin(dataset_list)]
+    df = df[df['to_path'].isin(dataset_list)]
+
+    key_list = ['Key_0_0', 'DBN']
+    df = df[df['from_column'].isin(key_list)]
+    df = df[df['to_column'].isin(key_list)]
+
+    # Merge columns - from table
+    df['from_path'] = df['from_path'].str.rstrip('/')
+    df['fk_table'] = df['from_path'] + '_' + df['from_table']
+    df['fk_column'] = df['from_column']
+    df = df.drop(columns=['from_path', 'from_table', 'from_column'])
+
+    # Merge columns - to table
+    df['to_path'] = df['to_path'].str.rstrip('/')
+    df['pk_table'] = df['to_path'] + '_' + df['to_label']
+    df['pk_column'] = df['to_column']
+    df = df.drop(columns=['to_path', 'to_label', 'to_column'])
+
+    new_file_path = f"../data2/connections2.csv"
+    df.to_csv(new_file_path, index=False)
+
+
 if __name__ == "__main__":
     # all_con = pd.read_csv('../data/all_connections.csv')
     # all_con = all_con[['from_table', 'from_column', 'to_label', 'to_column']]
@@ -164,29 +196,4 @@ if __name__ == "__main__":
 
     # main()
 
-    file_path = f"../data2/all_connections_basic2.csv"
-    df = pd.read_csv(file_path)
-
-    # Keep only the correct datasets
-    dataset_list = ['credit/', 'eyemove/', 'covertype/', 'jannis/', 'miniboone/', 'steel/', 'bioresponse/', 'school/']
-    df = df[df['from_path'].isin(dataset_list)]
-    df = df[df['to_path'].isin(dataset_list)]
-
-    key_list = ['Key_0_0', 'DBN']
-    df = df[df['from_column'].isin(key_list)]
-    df = df[df['to_column'].isin(key_list)]
-
-    # Merge columns - from table
-    df['from_path'] = df['from_path'].str.rstrip('/')
-    df['fk_table'] = df['from_path'] + '_' + df['from_table']
-    df['fk_column'] = df['from_column']
-    df = df.drop(columns=['from_path', 'from_table', 'from_column'])
-
-    # Merge columns - to table
-    df['to_path'] = df['to_path'].str.rstrip('/')
-    df['pk_table'] = df['to_path'] + '_' + df['to_label']
-    df['pk_column'] = df['to_column']
-    df = df.drop(columns=['to_path', 'to_label', 'to_column'])
-
-    new_file_path = f"../data2/connections2.csv"
-    df.to_csv(new_file_path, index=False)
+    get_connections()
