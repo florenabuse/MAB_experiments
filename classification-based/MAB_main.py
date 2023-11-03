@@ -18,7 +18,7 @@ def main_MAB(tables, folder, base_name, index_col, target_col):
     repo_train_path = [f'../data2/{folder}/' + i + '_train.csv' for i in tables]
     repo_test_path = [f'../data2/{folder}/' + i + '_test.csv' for i in tables]
 
-    connections = f"../data2/{folder}/connections.csv"
+    connections = f"../data2/{folder}/connections2.csv"
 
     model_target = 0.60
 
