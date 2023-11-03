@@ -71,7 +71,6 @@ def main(folder, base_name, index_col, target_col, dataset_tables):
     #     tables.append('table_0_0')
     # for table in dataset_tables:
     #     tables.append(table)
-    print(tables)
 
     for entry in tables:
         df = pd.read_csv(f"../data2/{folder}/{entry}.csv")
@@ -97,14 +96,14 @@ def main(folder, base_name, index_col, target_col, dataset_tables):
         a_test.to_csv(f"../data2/{folder}/{entry}_test.csv", index=False)
 
     # tables = ['table_1_1', 'table_1_2', 'table_1_3']
-    tables = dataset_tables
-    if folder == 'school':
-        tables.remove('school_base')
-    else:
-        tables.remove(f'{folder}_tables_0_0')
-    print(tables)
+    tables = []
+    for table in dataset_tables:
+        if table == base_name:
+            continue
+        else:
+            tables.append(table)
 
-    # main_MAB(tables, folder, base_name, index_col, target_col)
+    main_MAB(tables, folder, base_name, index_col, target_col)
 
     # tables = ['temp', 'co_daily_summary', 'hap_daily_summary', 'lead_daily_summary', 'no2_daily_summary', 'nonoxnoy_daily_summary',
     #           'o3_daily_summary', 'pm10_daily_summary', 'pm25_frm_daily_summary', 'pm25_nonfrm_daily_summary',
