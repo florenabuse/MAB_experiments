@@ -64,13 +64,14 @@ def main(folder, base_name, index_col, target_col, dataset_tables):
     # target_col = 'covertype/table_0_0.class'
 
     # tables = ['table_0_0', 'table_1_1', 'table_1_2', 'table_1_3']
-    tables = []
-    if folder == 'school':
-        tables.append('base')
-    else:
-        tables.append('table_0_0')
-    for table in dataset_tables:
-        tables.append(table)
+    tables = dataset_tables
+    # if folder == 'school':
+    #     tables.append('base')
+    # else:
+    #     tables.append('table_0_0')
+    # for table in dataset_tables:
+    #     tables.append(table)
+    print(tables)
 
     for entry in tables:
         df = pd.read_csv(f"../data2/{folder}/{entry}.csv")
@@ -97,8 +98,13 @@ def main(folder, base_name, index_col, target_col, dataset_tables):
 
     # tables = ['table_1_1', 'table_1_2', 'table_1_3']
     tables = dataset_tables
+    if folder == 'school':
+        tables.remove('school_base')
+    else:
+        tables.remove(f'{folder}_tables_0_0')
+    print(tables)
 
-    main_MAB(tables, folder, base_name, index_col, target_col)
+    # main_MAB(tables, folder, base_name, index_col, target_col)
 
     # tables = ['temp', 'co_daily_summary', 'hap_daily_summary', 'lead_daily_summary', 'no2_daily_summary', 'nonoxnoy_daily_summary',
     #           'o3_daily_summary', 'pm10_daily_summary', 'pm25_frm_daily_summary', 'pm25_nonfrm_daily_summary',
@@ -132,12 +138,14 @@ def get_connections():
 
     # Merge columns - from table
     df['from_path'] = df['from_path'].str.rstrip('/')
+    df['from_table'] = df['from_table'].str.rstrip('.csv')
     df['fk_table'] = df['from_path'] + '_' + df['from_table']
     df['fk_column'] = df['from_column']
     df = df.drop(columns=['from_path', 'from_table', 'from_column'])
 
     # Merge columns - to table
     df['to_path'] = df['to_path'].str.rstrip('/')
+    df['to_label'] = df['to_label'].str.rstrip('.csv')
     df['pk_table'] = df['to_path'] + '_' + df['to_label']
     df['pk_column'] = df['to_column']
     df = df.drop(columns=['to_path', 'to_label', 'to_column'])
@@ -194,6 +202,25 @@ if __name__ == "__main__":
     #     main(folder=dataset[0], base_name=dataset[1], index_col=dataset[2], target_col=dataset[3],
     #          dataset_tables=dataset[4])
 
-    # main()
-
     get_connections()
+
+    # CONNECTIONS SCENARIO
+    # file_path = f"../data2/connections2.csv"
+    # df = pd.read_csv(file_path)
+    # tables = df['fk_table'].unique()
+    #
+    # credit_parameters = ['credit_table_0_0', 'Key_0_0', 'class', tables]
+    # eyemove_parameters = ['eyemove_table_0_0', 'Key_0_0', 'label', tables]
+    # covertype_parameters = ['covertype_table_0_0', 'Key_0_0', 'class', tables]
+    # jannis_parameters = ['jannis_table_0_0', 'Key_0_0', 'class', tables]
+    # miniboone_parameters = ['miniboone_table_0_0', 'Key_0_0', 'signal', tables]
+    # steel_parameters = ['steel_table_0_0', 'Key_0_0', 'Class', tables]
+    # bioresponse_parameters = ['bioresponse_table_0_0', 'Key_0_0', 'target', tables]
+    # school_parameters = ['school_base', 'DBN', 'class', tables]
+    #
+    # datasets = [credit_parameters, eyemove_parameters, covertype_parameters, jannis_parameters,
+    #             miniboone_parameters, steel_parameters, bioresponse_parameters, school_parameters]
+    #
+    # for dataset in datasets:
+    #     main(folder='all', base_name=dataset[0], index_col=dataset[1], target_col=dataset[2],
+    #          dataset_tables=dataset[3])
