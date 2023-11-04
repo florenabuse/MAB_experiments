@@ -208,14 +208,14 @@ if __name__ == "__main__":
     df = pd.read_csv(file_path)
     tables = df['fk_table'].unique()
 
-    credit_parameters = ['credit_table_0_0', 'Key_0_0', 'class', tables]
-    eyemove_parameters = ['eyemove_table_0_0', 'Key_0_0', 'label', tables]
-    covertype_parameters = ['covertype_table_0_0', 'Key_0_0', 'class', tables]
-    jannis_parameters = ['jannis_table_0_0', 'Key_0_0', 'class', tables]
-    miniboone_parameters = ['miniboone_table_0_0', 'Key_0_0', 'signal', tables]
-    steel_parameters = ['steel_table_0_0', 'Key_0_0', 'Class', tables]
-    bioresponse_parameters = ['bioresponse_table_0_0', 'Key_0_0', 'target', tables]
-    school_parameters = ['school_base', 'DBN', 'class', tables]
+    credit_parameters = ['credit_table_0_0', 'Key_0_0', 'credit_table_0_0.class', tables]
+    eyemove_parameters = ['eyemove_table_0_0', 'Key_0_0', 'eyemove_table_0_0.label', tables]
+    covertype_parameters = ['covertype_table_0_0', 'Key_0_0', 'covertype_table_0_0.class', tables]
+    jannis_parameters = ['jannis_table_0_0', 'Key_0_0', 'jannis_table_0_0.class', tables]
+    miniboone_parameters = ['miniboone_table_0_0', 'Key_0_0', 'miniboone_table_0_0.signal', tables]
+    steel_parameters = ['steel_table_0_0', 'Key_0_0', 'steel_table_0_0.Class', tables]
+    bioresponse_parameters = ['bioresponse_table_0_0', 'Key_0_0', 'bioresponse_table_0_0.target', tables]
+    school_parameters = ['school_base', 'DBN', 'school_base.class', tables]
 
     datasets = [credit_parameters, eyemove_parameters, covertype_parameters, jannis_parameters,
                 miniboone_parameters, steel_parameters, bioresponse_parameters, school_parameters]
