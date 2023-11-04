@@ -201,7 +201,7 @@ if __name__ == "__main__":
     #     main(folder=dataset[0], base_name=dataset[1], index_col=dataset[2], target_col=dataset[3],
     #          dataset_tables=dataset[4])
 
-    # get_connections()
+    get_connections()
 
     # CONNECTIONS SCENARIO
     file_path = f"../data2/all/connections2.csv"
