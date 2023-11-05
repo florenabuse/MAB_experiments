@@ -149,7 +149,7 @@ def get_connections():
     df['pk_column'] = df['to_column']
     df = df.drop(columns=['to_path', 'to_label', 'to_column'])
 
-    new_file_path = f"../data2/all/connections2.csv"
+    new_file_path = f"../data2/connections2.csv"
     df.to_csv(new_file_path, index=False)
 
 
@@ -204,7 +204,7 @@ if __name__ == "__main__":
     get_connections()
 
     # CONNECTIONS SCENARIO
-    file_path = f"../data2/all/connections2.csv"
+    file_path = f"../data2/connections2.csv"
     df = pd.read_csv(file_path)
     tables = df['fk_table'].unique()
 
