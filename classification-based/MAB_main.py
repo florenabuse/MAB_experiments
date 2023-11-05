@@ -74,17 +74,13 @@ def main(folder, base_name, index_col, target_col, dataset_tables):
 
     for entry in tables:
         df = pd.read_csv(f"../data2/{folder}/{entry}.csv")
-        me = [f'{folder}/{entry}.{i}' for i in df.columns if i != index_col and i != target_col]
+        me = [f'{folder}/{entry}.{i}' for i in df.columns if i != index_col]
         if index_col in df.columns:
             me.append(index_col)
-        if target_col in df.columns:
-            me.append(target_col)
 
-        re = [i for i in df.columns if i != index_col and i != target_col]
+        re = [i for i in df.columns if i != index_col]
         if index_col in df.columns:
             re.append(index_col)
-        if target_col in df.columns:
-            re.append(target_col)
 
         df = df[re]
         df.columns = me
@@ -201,26 +197,25 @@ if __name__ == "__main__":
     #     main(folder=dataset[0], base_name=dataset[1], index_col=dataset[2], target_col=dataset[3],
     #          dataset_tables=dataset[4])
 
-    # Add connections file for /data2/connections2.csv
-    get_connections()
+    # get_connections()
 
-    # # CONNECTIONS SCENARIO
-    # file_path = f"../data2/connections2.csv"
-    # df = pd.read_csv(file_path)
-    # tables = df['fk_table'].unique()
-    #
-    # credit_parameters = ['credit_table_0_0', 'Key_0_0', 'class', tables]
-    # eyemove_parameters = ['eyemove_table_0_0', 'Key_0_0', 'label', tables]
-    # covertype_parameters = ['covertype_table_0_0', 'Key_0_0', 'class', tables]
-    # jannis_parameters = ['jannis_table_0_0', 'Key_0_0', 'class', tables]
-    # miniboone_parameters = ['miniboone_table_0_0', 'Key_0_0', 'signal', tables]
-    # steel_parameters = ['steel_table_0_0', 'Key_0_0', 'Class', tables]
-    # bioresponse_parameters = ['bioresponse_table_0_0', 'Key_0_0', 'target', tables]
-    # school_parameters = ['school_base', 'DBN', 'class', tables]
-    #
-    # datasets = [credit_parameters, eyemove_parameters, covertype_parameters, jannis_parameters,
-    #             miniboone_parameters, steel_parameters, bioresponse_parameters, school_parameters]
-    #
-    # for dataset in datasets:
-    #     main(folder='all', base_name=dataset[0], index_col=dataset[1], target_col=dataset[2],
-    #          dataset_tables=dataset[3])
+    # CONNECTIONS SCENARIO
+    file_path = f"../data2/connections2.csv"
+    df = pd.read_csv(file_path)
+    tables = df['fk_table'].unique()
+
+    credit_parameters = ['credit_table_0_0', 'Key_0_0', 'all/credit_table_0_0.class', tables]
+    eyemove_parameters = ['eyemove_table_0_0', 'Key_0_0', 'all/eyemove_table_0_0.label', tables]
+    covertype_parameters = ['covertype_table_0_0', 'Key_0_0', 'all/covertype_table_0_0.class', tables]
+    jannis_parameters = ['jannis_table_0_0', 'Key_0_0', 'all/jannis_table_0_0.class', tables]
+    miniboone_parameters = ['miniboone_table_0_0', 'Key_0_0', 'all/miniboone_table_0_0.signal', tables]
+    steel_parameters = ['steel_table_0_0', 'Key_0_0', 'all/steel_table_0_0.Class', tables]
+    bioresponse_parameters = ['bioresponse_table_0_0', 'Key_0_0', 'all/bioresponse_table_0_0.target', tables]
+    school_parameters = ['school_base', 'DBN', 'all/school_base.class', tables]
+
+    datasets = [credit_parameters, eyemove_parameters, covertype_parameters, jannis_parameters,
+                miniboone_parameters, steel_parameters, bioresponse_parameters, school_parameters]
+
+    for dataset in datasets:
+        main(folder='all', base_name=dataset[0], index_col=dataset[1], target_col=dataset[2],
+             dataset_tables=dataset[3])
