@@ -213,8 +213,10 @@ if __name__ == "__main__":
     bioresponse_parameters = ['bioresponse_table_0_0', 'Key_0_0', 'all/bioresponse_table_0_0.target', tables]
     school_parameters = ['school_base', 'DBN', 'all/school_base.class', tables]
 
-    datasets = [credit_parameters, eyemove_parameters, covertype_parameters, jannis_parameters,
-                miniboone_parameters, steel_parameters, bioresponse_parameters, school_parameters]
+    # done: credit, eyemove
+    # running: covertype
+    # to do: jannis, miniboone, steel, bioresponse, school
+    datasets = [jannis_parameters, miniboone_parameters, steel_parameters, bioresponse_parameters, school_parameters]
 
     for dataset in datasets:
         main(folder='all', base_name=dataset[0], index_col=dataset[1], target_col=dataset[2],
