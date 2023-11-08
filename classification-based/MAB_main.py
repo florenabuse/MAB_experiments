@@ -217,7 +217,7 @@ if __name__ == "__main__":
     # done: credit, eyemove, jannis, steel, bioresponse
     # to do last: KNN for covertype and miniboone
     # to do: school
-    datasets = [covertype_parameters, miniboone_parameters]
+    datasets = [miniboone_parameters, covertype_parameters]
 
     for dataset in datasets:
         main(folder='all', base_name=dataset[0], index_col=dataset[1], target_col=dataset[2],
