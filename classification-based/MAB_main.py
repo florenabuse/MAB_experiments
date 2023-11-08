@@ -31,9 +31,10 @@ def main_MAB(tables, folder, base_name, index_col, target_col):
     # All models: {"RF": {}, "GBM": {}, "XGB": {}, "XT": {}, 'KNN': {},
     # Exclude tree-based models: RF, GBM, XGB, XT
     # models = ["LR-1", "LR-2", "KNN"]
-    models = ["LR-1", "KNN"]
+    # models = ["LR-1", "KNN"]
+    models = ["KNN"]
     model_map = {
-        "LR-1": {'LR': {'penalty': 'L1'}},
+        # "LR-1": {'LR': {'penalty': 'L1'}},
         # "LR-2": {'LR': {'penalty': 'L2'}},
         "KNN": {'KNN': {}}
     }
@@ -216,7 +217,7 @@ if __name__ == "__main__":
     # done: credit, eyemove, jannis, steel, bioresponse
     # to do last: KNN for covertype and miniboone
     # to do: school
-    datasets = [school_parameters]
+    datasets = [covertype_parameters, miniboone_parameters]
 
     for dataset in datasets:
         main(folder='all', base_name=dataset[0], index_col=dataset[1], target_col=dataset[2],
