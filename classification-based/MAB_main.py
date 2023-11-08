@@ -22,7 +22,7 @@ def main_MAB(tables, folder, base_name, index_col, target_col):
 
     model_target = 0.60
 
-    max_try_num = 30
+    max_try_num = 10 # 30
 
     topl = 3
 
@@ -213,10 +213,10 @@ if __name__ == "__main__":
     bioresponse_parameters = ['bioresponse_table_0_0', 'Key_0_0', 'all/bioresponse_table_0_0.target', tables]
     school_parameters = ['school_base', 'DBN', 'all/school_base.class', tables]
 
-    # done: credit, eyemove, jannis
+    # done: credit, eyemove, jannis, steel, bioresponse
     # to do last: KNN for covertype and miniboone
-    # to do: steel, bioresponse, school
-    datasets = [steel_parameters, bioresponse_parameters, school_parameters]
+    # to do: school
+    datasets = [school_parameters]
 
     for dataset in datasets:
         main(folder='all', base_name=dataset[0], index_col=dataset[1], target_col=dataset[2],
